@@ -4,19 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/assets/durandal/app/views/proveedor/list.html" mnemonic="6" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6debabb0-a414-4c91-bf7f-4d964a2e1c29" name="Default" comment="Commit 1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/views/proveedor/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/proveedor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/proveedor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/repository/proveedores.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/statusproveedor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/main.js" afterPath="$PROJECT_DIR$/assets/durandal/app/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/shell.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/shell.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js" />
+    <list default="true" id="6debabb0-a414-4c91-bf7f-4d964a2e1c29" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/repository/proveedores.js" afterPath="$PROJECT_DIR$/assets/durandal/app/repository/proveedores.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sgreplikat.iws" />
@@ -53,22 +45,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="list.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="84" selection-start="84" selection-end="84" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="13" column="4" selection-start="347" selection-end="347" vertical-scroll-proportion="0.37842464" vertical-offset="0" max-vertical-offset="584">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="observable.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="41" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="observable.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/durandal/lib/durandal/js/plugins/observable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="319" column="28" selection-start="10768" selection-end="10775" vertical-scroll-proportion="9.895986" vertical-offset="0" max-vertical-offset="5797">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="3" column="9" selection-start="133" selection-end="133" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="5797">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +75,7 @@
       <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/durandal/app/views/proveedor/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="66" selection-start="320" selection-end="320" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="391">
+            <state line="7" column="13" selection-start="142" selection-end="142" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -91,19 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shell.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js">
+      <file leaf-file-name="edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="2" column="44" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -121,7 +111,7 @@
       <file leaf-file-name="proveedores.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/durandal/app/repository/proveedores.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+            <state line="21" column="33" selection-start="196" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -168,12 +158,12 @@
         <option value="$PROJECT_DIR$/assets/durandal/app/views/proveedor/proveedorList.html" />
         <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/proveedorList.js" />
         <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/repository/proveedores.js" />
         <option value="$PROJECT_DIR$/assets/durandal/app/main.js" />
         <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/proveedor.js" />
         <option value="$PROJECT_DIR$/assets/durandal/app/views/proveedor/list.html" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/repository/proveedores.js" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js" />
         <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js" />
       </list>
     </option>
@@ -313,8 +303,26 @@
               <option name="myItemId" value="durandal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="durandal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,19 +344,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,11 +370,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proveedor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="durandal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viewmodels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="durandal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viewmodels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proveedor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="durandal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -478,7 +564,11 @@
       <created>1386196161171</created>
       <updated>1386196161171</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 1">
+      <created>1386378836012</created>
+      <updated>1386378836012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -555,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="23" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
@@ -576,20 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/repository/proveedores.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/durandal/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="799">
@@ -597,16 +666,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/views/proveedor/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="320" selection-end="320" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/lib/durandal/img/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/durandal/app/views/shell.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="77" selection-start="769" selection-end="769" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/lib/durandal/js/plugins/observable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="133" selection-end="133" vertical-scroll-proportion="-2.04" vertical-offset="0" max-vertical-offset="5797">
           <folding />
         </state>
       </provider>
@@ -618,24 +692,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/lib/durandal/img/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js">
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="84" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
+        <state line="2" column="44" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/lib/durandal/js/plugins/observable.js">
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/repository/proveedores.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="319" column="28" selection-start="10768" selection-end="10775" vertical-scroll-proportion="9.895986" vertical-offset="0" max-vertical-offset="5797">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="21" column="33" selection-start="196" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/views/proveedor/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="142" selection-end="142" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="41" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="347" selection-end="347" vertical-scroll-proportion="0.37842464" vertical-offset="0" max-vertical-offset="584">
+          <folding />
         </state>
       </provider>
     </entry>
