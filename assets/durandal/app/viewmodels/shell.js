@@ -10,7 +10,10 @@
             router.map([
                 { route: '', title:'Welcome', moduleId: 'viewmodels/welcome', nav: true },
                 { route: 'test', title:'Test', moduleId: 'viewmodels/test', nav: true },
+                { route: 'proveedor/list', title:'Proveedores', moduleId: 'viewmodels/proveedor/list', nav: true },
+                { route: 'proveedor/edit/:id', title:'Proveedores', moduleId: 'viewmodels/proveedor/edit', nav: false },
                 { route: 'flickr', moduleId: 'viewmodels/flickr', nav: true }
+
             ]).buildNavigationModel();
             
             return router.activate();

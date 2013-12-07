@@ -1,0 +1,17 @@
+<h1>proveedorList</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody  data-bind="foreach:items">
+        <tr>
+            <td data-bind="text:nombre"></td>
+            <td><a data-bind="attr:{href: '#/proveedor/edit/' + id}">Editar</a></td>
+        </tr>
+    </tbody>
+</table>
+<button class="btn" data-bind="click: changeName">Cambia el nombre por favor!</button>

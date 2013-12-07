@@ -1,4 +1,5 @@
 ﻿requirejs.config({
+    urlArgs: "bust=" +  (new Date()).getTime(),
     paths: {
         'text': '../lib/require/text',
         'durandal':'../lib/durandal/js',
@@ -26,7 +27,8 @@ define(['durandal/system', 'durandal/app', 'durandal/viewLocator'],  function (s
     app.configurePlugins({
         router:true,
         dialog: true,
-        widget: true
+        widget: true,
+        observable: true
     });
 
     app.start().then(function() {
