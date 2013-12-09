@@ -18,11 +18,17 @@ define(function(){
                   }
                 }
                 dfd.reject();
-            },this),4000);
+            },this),1);
             return dfd.promise();
         },
         add: function(item){
             this.items.push(item);
+        },
+        update: function(item)
+        {
+            var dfd = new jQuery.Deferred();
+            dfd.resolve();
+            return dfd.promise();
         }
     };
     return proveedores;
