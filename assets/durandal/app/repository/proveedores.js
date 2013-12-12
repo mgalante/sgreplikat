@@ -1,13 +1,24 @@
-define(function(){
+define(['plugins/http','plugins/serializer','jquery'],function(http,serializer,$){
+
+  //  serializer.typeMap.proveedor = require('viewmodels/proveedor/proveedor');
+
     var proveedores = {
         items: [{id: 1, nombre: "Juan"},{id: 2, nombre: "Pepe"}],
         getAll: function()
         {
-            return this.items;
+            var dfd = new $.Deferred();
+            http.get("/sgreplikat/index.php/proveedores").then(function(data){
+                console.log(data);
+
+                dfd.resolve(serializer.deserialize(JSON.stringify(data)));
+            }).fail(function(){
+                dfd.reject();
+            });
+            return dfd.promise();
         },
         getById: function(id)
         {
-            var dfd = new jQuery.Deferred();
+            var dfd = new $.Deferred();
             setTimeout($.proxy(function(){
                 for(var i = 0; i<this.items.length;i++)
                 {
@@ -26,9 +37,7 @@ define(function(){
         },
         update: function(item)
         {
-            var dfd = new jQuery.Deferred();
-            dfd.resolve();
-            return dfd.promise();
+            return $.when("ok");
         }
     };
     return proveedores;
