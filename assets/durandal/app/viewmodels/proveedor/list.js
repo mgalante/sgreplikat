@@ -2,20 +2,26 @@ define(['knockout',
     'jquery',
     'viewmodels/proveedor/proveedor',
     'durandal/system',
-    'plugins/observable',
-    'repository/proveedores'], function (ko, $, Proveedor,system, observable, proveedores) {
+    'repository/proveedores'], function (ko, $, Proveedor,system, proveedores) {
     return function list()
     {
         var self = this;
-        self.items = [];
-
+        self.items = ko.observableArray();
         self.activate = function()
         {
-            self.items = proveedores.getAll();
-        }
+            return proveedores.getAll().then(function(items){
+                    var observableItems = [];
+                    for(var i in items)
+                    {
+                         observableItems.push(new Proveedor(items[i]));
+                    }
+                    self.items(observableItems);
+                }
+            );
+        };
 
         self.changeName = function(){
             self.items[0].nombre = "Jose Del Rio";
-        }
+        };
     };
 });

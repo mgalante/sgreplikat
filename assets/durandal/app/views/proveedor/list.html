@@ -10,7 +10,7 @@
     <tbody  data-bind="foreach:items">
         <tr>
             <td data-bind="text:nombre"></td>
-            <td><a data-bind="attr:{href: '#/proveedor/edit/' + id}">Editar</a></td>
+            <td><a data-bind="attr:{href: '#/proveedor/edit/' + id()}">Editar</a></td>
         </tr>
     </tbody>
 </table>

@@ -1,4 +1,4 @@
-define(['plugins/http','plugins/serializer','jquery'],function(http,serializer,$){
+define(['plugins/http','plugins/serializer','jquery','knockout'],function(http,serializer,$,ko){
 
   //  serializer.typeMap.proveedor = require('viewmodels/proveedor/proveedor');
 
@@ -7,7 +7,7 @@ define(['plugins/http','plugins/serializer','jquery'],function(http,serializer,$
         getAll: function()
         {
             var dfd = new $.Deferred();
-            http.get("/sgreplikat/index.php/proveedores").then(function(data){
+            http.get("/sgreplikat/index.php/proveedores/list").then(function(data){
                 console.log(data);
 
                 dfd.resolve(serializer.deserialize(JSON.stringify(data)));
@@ -18,26 +18,32 @@ define(['plugins/http','plugins/serializer','jquery'],function(http,serializer,$
         },
         getById: function(id)
         {
-            var dfd = new $.Deferred();
-            setTimeout($.proxy(function(){
-                for(var i = 0; i<this.items.length;i++)
-                {
-                  if(this.items[i].id == id)
-                  {
-                      dfd.resolve(this.items[i]);
-                      return;
-                  }
-                }
-                dfd.reject();
-            },this),1);
-            return dfd.promise();
+            if(id == 0)
+            {
+                return $.when(new Proveedor({id : 0}));
+            }
+            else
+            {
+                var dfd = new $.Deferred();
+                http.get("/sgreplikat/index.php/proveedores/get/" + id).then(function(data){
+                    dfd.resolve(serializer.deserialize(JSON.stringify(data)));
+                }).fail(function(){
+                        dfd.reject();
+                    });
+                return dfd.promise();
+            }
         },
         add: function(item){
             this.items.push(item);
         },
-        update: function(item)
+        save: function(item)
         {
-            return $.when("ok");
+            return $.ajax({
+                dataType: 'json',
+                type: 'post',
+                url: "/sgreplikat/index.php/proveedores/save",
+                data: {request: ko.toJSON(item)}
+            });
         }
     };
     return proveedores;

@@ -2,6 +2,8 @@ define(['knockout', 'jquery'], function (ko, $) {
     return function proveedor(obj)
     {
         var self = this;
+
+
         self.id = ko.observable();
         self.nombre = ko.observable();
         self.direccion = ko.observable();
@@ -11,13 +13,10 @@ define(['knockout', 'jquery'], function (ko, $) {
         self.comentario = ko.observable();
         self.statusproveedor_id = ko.observable();
 
-        if(obj){
-            self.setFromJS(obj);
-        }
-
         self.setFromJS = function(obj)
         {
             self.id(obj.id);
+            self.nombre(obj.nombre);
             self.direccion(obj.direccion);
             self.telefono(obj.telefono);
             self.contacto(obj.contacto);
@@ -26,5 +25,8 @@ define(['knockout', 'jquery'], function (ko, $) {
             self.statusproveedor_id(obj.statusproveedor_id);
         }
 
+        if(obj){
+            self.setFromJS(obj);
+        }
     };
 });

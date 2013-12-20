@@ -30,8 +30,7 @@ define(['durandal/system', 'durandal/app', 'durandal/viewLocator'],  function (s
     app.configurePlugins({
         router:true,
         dialog: true,
-        widget: true,
-        observable: true
+        widget: true
     });
 
     app.start().then(function() {
