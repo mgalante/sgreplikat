@@ -1,0 +1,9 @@
+<?php
+
+class <%=Module%> extends DataMapper {
+    var $table = '<%=modules%>';
+    // var $has_one = array("");
+	// var $has_many = array("");
+    
+	var $fields = array("<%=fields[0].name%>"<% for(var i=1;i<fields.length;i++){%>,"<%=fields[i].name%>"<%}%>);
+}

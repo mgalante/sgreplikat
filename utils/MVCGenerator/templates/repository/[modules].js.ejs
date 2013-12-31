@@ -1,15 +1,10 @@
-define(['plugins/http','helpers/serializer','jquery','knockout'],function(http,serializer,$,ko){
+define(['plugins/http','helpers/serializer','jquery','knockout', 'viewModels/<%=module%>'],function(http,serializer,$,ko,<%=Module%>){
 
-  //  serializer.typeMap.proveedor = require('viewmodels/proveedor/proveedor');
-
-    var proveedores = {
-        items: [{id: 1, nombre: "Juan"},{id: 2, nombre: "Pepe"}],
+    var <%=modules%> = {
         getAll: function()
         {
             var dfd = new $.Deferred();
-            http.get("/sgreplikat/index.php/proveedores/list").then(function(data){
-                console.log(data);
-
+            http.get("/sgreplikat/index.php/<%=modules%>/list").then(function(data){
                 dfd.resolve(serializer.deserialize(JSON.stringify(data)));
             }).fail(function(){
                 dfd.reject();
@@ -20,12 +15,12 @@ define(['plugins/http','helpers/serializer','jquery','knockout'],function(http,s
         {
             if(id == 0)
             {
-                return $.when(new Proveedor({id : 0}));
+                return $.when(new <%=Module%>({id : 0}));
             }
             else
             {
                 var dfd = new $.Deferred();
-                http.get("/sgreplikat/index.php/proveedores/get/" + id).then(function(data){
+                http.get("/sgreplikat/index.php/<%=modules%>/get/" + id).then(function(data){
                     dfd.resolve(serializer.deserialize(JSON.stringify(data)));
                 }).fail(function(){
                         dfd.reject();
@@ -41,7 +36,7 @@ define(['plugins/http','helpers/serializer','jquery','knockout'],function(http,s
             return $.ajax({
                 dataType: 'json',
                 type: 'post',
-                url: "/sgreplikat/index.php/proveedores/save",
+                url: "/sgreplikat/index.php/<%=modules%>/save",
                 data: {request: ko.toJSON(item)}
             });
         }

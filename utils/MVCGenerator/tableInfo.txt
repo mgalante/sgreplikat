@@ -1,0 +1,8 @@
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(50) DEFAULT NULL,
+  `apellido` varchar(50) DEFAULT NULL,
+  `empresa` varchar(50) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `telefono` varchar(20) DEFAULT NULL,
+  `comentarios` varchar(1000) DEFAULT NULL,
+  `direccion` varchar(1000) DEFAULT NULL,

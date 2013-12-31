@@ -1,15 +1,15 @@
 define(['knockout',
     'jquery',
-    'viewmodels/proveedor/proveedor',
+    'viewmodels/proveedor/<%=module%>',
     'durandal/system',
-    'repository/proveedores'], function (ko, $, Proveedor,system, proveedores) {
+    'repository/<%=modules%>'], function (ko, $, <%=Module%>,system, <%=modules%>) {
     return function list()
     {
         var self = this;
         self.items = ko.observableArray();
         self.activate = function()
         {
-            return proveedores.getAll().then(function(items){
+            return <%=modules%>.getAll().then(function(items){
                     self.items(items);
                 }
             );

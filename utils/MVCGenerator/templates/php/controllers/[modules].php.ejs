@@ -1,0 +1,35 @@
+<?php
+require(APPPATH.'libraries/REST_Controller.php');
+
+class <%=Modules%> extends REST_Controller{
+    public function list_get()
+    {
+        $entities = new <%=Module%>();
+        $entities->get();
+        $response = array();
+        foreach($entities as $entity)
+        {
+            $item= $entity->to_array();
+            $item['type'] = '<%=module%>';
+            array_push($response,$item);
+        }
+        $this->response($response,200);
+    }
+
+    public function get_get($id)
+    {
+        $entity = new <%=Module%>();
+        $entity->get_by_id($id);
+        $this->response($entity->to_array(), 200);
+    }
+
+    public function save_post()
+    {
+        $this->load->library('generic_repository');
+        $entity = new <%=Module%>();
+        $this->generic_repository->update_or_create($entity, json_decode($this->input->post('request'),true));
+        $this->response($entity->to_array(), 200);
+    }
+
+
+}

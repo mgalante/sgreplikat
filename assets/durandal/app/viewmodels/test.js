@@ -6,21 +6,9 @@
 
        serializer.typeMap.tortuga = function(obj){
           // console.log('tortuga', obj);
-           this
+           this.direccion = obj.direccion;
        };
 
-       var ObjetoLoco = function(){
-           this.coca = "asd";
-       }
-
-       var instanciaLoca = new ObjetoLoco();
-       $.extend(intaciaLoca,data);
-
-       serializer.typeMap.direccion = function(obj){
-           //console.log('direccion', obj);
-           this.lala = 123;
-           return "lola";
-       };
 
 
        window.manuelita = serializer.deserialize('{' +
@@ -33,7 +21,6 @@
             '}' +
        '}');
 
-       window.
        console.log("manuelita",manuelita);
        console.groupEnd();
 
