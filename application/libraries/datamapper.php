@@ -1285,7 +1285,7 @@ class DataMapper implements IteratorAggregate {
 	 */
 	public function get($limit = NULL, $offset = NULL)
 	{
-
+        $this->get_called = true;
 		// Check if this is a related object and if so, perform a related get
 		if (! $this->_handle_related())
 		{
@@ -6203,7 +6203,6 @@ class DataMapper implements IteratorAggregate {
 
 			$data[$field] = $this->{$field};
 		}
-
 		return $data;
 	}
 

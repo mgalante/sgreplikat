@@ -1,8 +1,9 @@
 define(['knockout',
+    'durandal/app',
     'jquery',
-    'viewmodels/proveedor/proveedor',
+    'models/proveedor',
     'durandal/system',
-    'repository/proveedores'], function (ko, $, Proveedor,system, proveedores) {
+    'services/proveedores'], function (ko, app, $, Proveedor,system, proveedores) {
     return function list()
     {
         var self = this;
@@ -14,5 +15,29 @@ define(['knockout',
                 }
             );
         };
+
+        self.delete = function()
+        {
+            var item = this;
+            app.showMessage(
+                "Esta seguro que desea eliminar " + item.nombre(),
+                "Eliminar",
+                ["Sí", "No"]
+            ).then(function(data){
+                debugger;
+                if(data == "Sí")
+                {
+                    proveedores.delete(item.id()).then(function(){
+                        debugger;
+                        self.items.remove(item);
+                    },function(data){
+                        debugger;
+                        console.log(data);
+                    });
+                }
+            });
+            return false;
+        };
+
     };
 });

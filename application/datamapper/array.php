@@ -66,7 +66,6 @@ class DMZ_Array {
 				$result[$f] = $object->{$f};
 			}
 		}
-
 		return $result;
 	}
 

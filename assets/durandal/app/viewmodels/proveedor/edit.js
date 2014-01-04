@@ -1,48 +1,44 @@
 define(['knockout', 'jquery',
     'durandal/system',
-    'repository/proveedores',
-    'plugins/router','repository/estaticos',
+    'services/proveedores',
+    'plugins/router','services/statusProveedores',
     '../../../lib/knockout.selectedValue/knockout.selectedValue',
-    'helpers/serializer'], function (ko, $, system, proveedores, router, estaticos, selectedValue, serializer) {
+    'helpers/serializer',
+    'ko.validation'], function (ko, $, system, proveedores, router, statusProveedores, selectedValue, serializer, validation) {
     return function edit()
     {
         var self = this;
         self.item = {};
-        self.activeId = ko.observable(0);
-        self.mode = ko.observable("proveedor/_details.html");
-        self.estaticos = {};
-
-        self.switchToDetails = function(){
-            self.mode("proveedor/_details.html");
-        };
-
-        self.switchToEdit = function(){
-            self.mode("proveedor/_edit.html");
-        };
+        self.statusProveedores = {};
 
         self.activate = function(id)
         {
-            self.activeId(id);
-            if(id == 0)
-            {
-                self.mode("proveedor/_edit.html");
-            }
             var proveedoresPromise =  proveedores.getById(id).then(function(item){
-                self.item = serializer.deserialize(JSON.stringify(item));
+                self.item = item;
             });
 
-            var estaticosPromise = estaticos.getStatus().then(function(data)
+            var statusProveedoresPromise = statusProveedores.getStatus().then(function(data)
             {
-                self.estaticos = serializer.deserialize(JSON.stringify(data));
+                self.statusProveedores = data;
             });
 
-            return $.when(proveedoresPromise,estaticosPromise);
+            return $.when(proveedoresPromise,statusProveedoresPromise).then(function(){
+                ko.validation.init({
+                    registerExtenders: true,
+                    messagesOnModified: true,
+                    insertMessages: true
+                });
+
+                self.errors = ko.validation.group(self.item);
+            });
         };
 
         self.save = function(){
-            proveedores.save(self.item).then(function(){
-                router.navigate('proveedor/list');
-            });
+            if(self.item.isValid()){
+                proveedores.save(self.item).then(function(){
+                    router.navigate('proveedor/list');
+                });
+            }
         };
 
     };

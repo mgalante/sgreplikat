@@ -12,6 +12,8 @@
                 { route: 'test', title:'Test', moduleId: 'viewmodels/test', nav: true },
                 { route: 'proveedor/list', title:'Proveedores', moduleId: 'viewmodels/proveedor/list', nav: true },
                 { route: 'proveedor/edit/:id', title:'Proveedores', moduleId: 'viewmodels/proveedor/edit', nav: false },
+                { route: 'proveedor/detail/:id', title:'Proveedores', moduleId: 'viewmodels/proveedor/detail', nav: false },
+                { route: 'proveedor/create', title:'Proveedores', moduleId: 'viewmodels/proveedor/create', nav: false },
                 { route: 'flickr', moduleId: 'viewmodels/flickr', nav: true }
 
             ]).buildNavigationModel();

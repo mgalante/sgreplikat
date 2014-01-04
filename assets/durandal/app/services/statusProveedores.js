@@ -1,4 +1,4 @@
-define(['jquery'],function($){
+define(['jquery','helpers/serializer'],function($,serializer){
     var estaticos  = {
         dfd: null,
         getStatus: function(){
@@ -7,9 +7,9 @@ define(['jquery'],function($){
                 this.dfd = new $.Deferred();
                 $.ajax({
                     type: "get",
-                    url: "/sgreplikat/index.php/estaticos/getall"
+                    url: "/sgreplikat/index.php/statusproveedores/list"
                 }).then($.proxy(function(data){
-                    this.dfd.resolve(data);
+                    this.dfd.resolve(serializer.deserialize(JSON.stringify(data)));
                 },this)).fail($.proxy(function(){
                     this.dfd.reject();
                     this.dfd = null;

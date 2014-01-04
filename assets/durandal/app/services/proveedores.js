@@ -44,6 +44,15 @@ define(['plugins/http','helpers/serializer','jquery','knockout'],function(http,s
                 url: "/sgreplikat/index.php/proveedores/save",
                 data: {request: ko.toJSON(item)}
             });
+        },
+        delete: function(id)
+        {
+            return $.ajax({
+                dataType: 'json',
+                type: 'post',
+                url: "/sgreplikat/index.php/proveedores/delete/" + id//,
+                //data: {id: id}
+            });
         }
     };
     return proveedores;
