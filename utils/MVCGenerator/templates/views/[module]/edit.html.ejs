@@ -1,4 +1,16 @@
-<div data-bind="compose:mode"></div>
-<div>
+<h1>Editar <span data-bind="text: item.id"></span> </h1>
+
+<% for(var i in visibleFields) { 
+	if(!visibleFields[i].belongsTo){ 
+%><div>
+    <label><%=visibleFields[i].displayName%></label>
+    <input data-bind="value: item.<%=visibleFields[i].name%>" />
+</div>
+<% } else {  %><div>
+    <label><%=visibleFields[i].displayName%></label>
+    <select data-bind="options: <%=visibleFields[i].belongsTo.modules%>, optionsText: '<%=visibleFields[i].belongsTo.descriptionField%>', value: item.<%=visibleFields[i].name%>, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
+</div>
+<%	} }%>
+<br/><div>
     <button class="btn btn-primary" data-bind="click:save">Guardar</button>&nbsp;<a href="#/<%=module%>/list" class="btn">Cancelar</a>
 </div>

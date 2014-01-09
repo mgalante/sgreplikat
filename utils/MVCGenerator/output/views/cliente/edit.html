@@ -1,0 +1,38 @@
+<h1>Editar <span data-bind="text: item.id"></span> </h1>
+
+<div>
+    <label>Nombre</label>
+    <input data-bind="value: item.nombre" />
+</div>
+<div>
+    <label>Apellido</label>
+    <input data-bind="value: item.apellido" />
+</div>
+<div>
+    <label>Empresa</label>
+    <input data-bind="value: item.empresa" />
+</div>
+<div>
+    <label>Email</label>
+    <input data-bind="value: item.email" />
+</div>
+<div>
+    <label>Telefono</label>
+    <input data-bind="value: item.telefono" />
+</div>
+<div>
+    <label>Comentarios</label>
+    <input data-bind="value: item.comentarios" />
+</div>
+<div>
+    <label>Direccion</label>
+    <input data-bind="value: item.direccion" />
+</div>
+<div>
+    <label>Asdasd _id</label>
+    <select data-bind="options: statusproveedores, optionsText: '_description', value: item.asdasd _id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
+</div>
+
+<br/><div>
+    <button class="btn btn-primary" data-bind="click:save">Guardar</button>&nbsp;<a href="#/cliente/list" class="btn">Cancelar</a>
+</div>

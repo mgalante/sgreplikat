@@ -24,14 +24,11 @@ define(['knockout',
                 "Eliminar",
                 ["Sí", "No"]
             ).then(function(data){
-                debugger;
                 if(data == "Sí")
                 {
                     proveedores.delete(item.id()).then(function(){
-                        debugger;
                         self.items.remove(item);
                     },function(data){
-                        debugger;
                         console.log(data);
                     });
                 }

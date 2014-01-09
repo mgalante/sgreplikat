@@ -4,7 +4,8 @@ define(['knockout', 'jquery',
     'models/proveedor',
     'plugins/router','services/statusProveedores',
     '../../../lib/knockout.selectedValue/knockout.selectedValue',
-    'helpers/serializer'], function (ko, $, system, proveedores, Proveedor, router, statusProveedores, selectedValue, serializer) {
+    'helpers/serializer',
+    'ko.validation'], function (ko, $, system, proveedores, Proveedor, router, statusProveedores, selectedValue, serializer,validation) {
 
     return function create()
     {

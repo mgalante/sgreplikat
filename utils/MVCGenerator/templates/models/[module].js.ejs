@@ -12,6 +12,9 @@ define(['knockout', 'jquery'], function (ko, $) {
         self.email = ko.observable();
         self.comentario = ko.observable();
         self.statusproveedor_id = ko.observable();
+		self._description = ko.computed(function(){
+			return self.<%=description.join('()+ " " + self.')%>();
+		});
 
         self.setFromJS = function(obj)
         {

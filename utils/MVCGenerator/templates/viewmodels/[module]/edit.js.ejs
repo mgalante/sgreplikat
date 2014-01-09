@@ -1,48 +1,72 @@
 define(['knockout', 'jquery',
     'durandal/system',
-    'repository/<%=modules%>',
-    'plugins/router','repository/estaticos',
+    'services/<%=modules%>',
+    'plugins/router',
+  <%for(var i in fields){
+        if(fields[i].belongsTo){%>
+    'services/<%=fields[i].belongsTo.modules%>',
+    <%} }%>
     '../../../lib/knockout.selectedValue/knockout.selectedValue',
-    'helpers/serializer'], function (ko, $, system, <%=modules%>, router, estaticos, selectedValue, serializer) {
+    'helpers/serializer',
+    'ko.validation'], function (ko, $, system, <%=modules%>, router, <%for(var i in fields){    
+        if(fields[i].belongsTo){%>
+       <%=fields[i].belongsTo.modules%>,
+	   <%}}%>, selectedValue, serializer, validation) {
     return function edit()
     {
         var self = this;
         self.item = {};
-        self.activeId = ko.observable(0);
-        self.mode = ko.observable("<%=module%>/_details.html");
-        self.estaticos = {};
-
-        self.switchToDetails = function(){
-            self.mode("<%=module%>/_details.html");
-        };
-
-        self.switchToEdit = function(){
-            self.mode("<%=module%>/_edit.html");
-        };
-
+        <%
+        for( var i in fields){
+            var field = fields[i];
+            if(field.belongsTo){
+        %>
+        self.<%=field.belongsTo.modules %> = {};
+        <%}
+        }%>
         self.activate = function(id)
         {
-            self.activeId(id);
-            if(id == 0)
-            {
-                self.mode("<%=module%>/_edit.html");
-            }
-            var proveedoresPromise =  <%=modules%>.getById(id).then(function(item){
-                self.item = serializer.deserialize(JSON.stringify(item));
+            var <%=modules%>Promise =  <%=modules%>.getById(id).then(function(item){
+                self.item = item;
             });
 
-            var estaticosPromise = estaticos.getStatus().then(function(data)
-            {
-                self.estaticos = serializer.deserialize(JSON.stringify(data));
+            <%
+            for( var i in fields){
+            var field = fields[i];
+              if(field.belongsTo){
+            %>
+            var <%=field.belongsTo.modules%>Promise = <%=field.belongsTo.modules%>.getAll().then(function(data){
+                self.<%=field.belongsTo.modules%> = data;
             });
+            <%}
+            }%>
 
-            return $.when(proveedoresPromise,estaticosPromise);
+            return $.when(
+                <%
+                for( var i in fields){
+				var field = fields[i];
+					if(field.belongsTo){
+                %>
+                <%=field.belongsTo.modules%>Promise,
+                <%}
+                }%>
+                <%=modules%>Promise).then(function(){
+                ko.validation.init({
+                    registerExtenders: true,
+                    messagesOnModified: true,
+                    insertMessages: true
+                });
+
+                self.errors = ko.validation.group(self.item);
+            });
         };
 
         self.save = function(){
-            <%=modules%>.save(self.item).then(function(){
-                router.navigate('<%=module%>/list');
-            });
+            if(self.item.isValid()){
+                <%=modules%>.save(self.item).then(function(){
+                    router.navigate('<%=module%>/list');
+                });
+            }
         };
 
     };

@@ -1,8 +1,9 @@
 define(['knockout',
+    'durandal/app',
     'jquery',
-    'viewmodels/proveedor/<%=module%>',
+    'models/<%=module%>',
     'durandal/system',
-    'repository/<%=modules%>'], function (ko, $, <%=Module%>,system, <%=modules%>) {
+    'services/<%=modules%>'], function (ko, app, $, <%=_.str.capitalize(module)%>, system, <%=modules%>) {
     return function list()
     {
         var self = this;
@@ -10,9 +11,29 @@ define(['knockout',
         self.activate = function()
         {
             return <%=modules%>.getAll().then(function(items){
-                    self.items(items);
-                }
-            );
+                self.items(items);
+            });
         };
+		
+        self.delete = function()
+        {
+            var item = this;
+            app.showMessage(
+                "Esta seguro que desea eliminar " + item._description(),
+                "Eliminar",
+                ["Sí", "No"]
+            ).then(function(data){
+                if(data == "Sí")
+                {
+                    <%=modules%>.delete(item.id()).then(function(){
+                        self.items.remove(item);
+                    },function(data){
+                        console.log(data);
+                    });
+                }
+            });
+            return false;
+        };
+
     };
 });

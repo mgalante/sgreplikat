@@ -1,10 +1,10 @@
-define(['plugins/http','helpers/serializer','jquery','knockout', 'viewModels/<%=module%>'],function(http,serializer,$,ko,<%=Module%>){
+define(['plugins/http','helpers/serializer','jquery','knockout', 'helpers/appSettings'],function(http,serializer,$,ko,appSettings){
 
     var <%=modules%> = {
         getAll: function()
         {
             var dfd = new $.Deferred();
-            http.get("/sgreplikat/index.php/<%=modules%>/list").then(function(data){
+            http.get(appSettings.root + "<%=modules%>/list").then(function(data){
                 dfd.resolve(serializer.deserialize(JSON.stringify(data)));
             }).fail(function(){
                 dfd.reject();
@@ -13,20 +13,13 @@ define(['plugins/http','helpers/serializer','jquery','knockout', 'viewModels/<%=
         },
         getById: function(id)
         {
-            if(id == 0)
-            {
-                return $.when(new <%=Module%>({id : 0}));
-            }
-            else
-            {
-                var dfd = new $.Deferred();
-                http.get("/sgreplikat/index.php/<%=modules%>/get/" + id).then(function(data){
-                    dfd.resolve(serializer.deserialize(JSON.stringify(data)));
-                }).fail(function(){
-                        dfd.reject();
-                    });
-                return dfd.promise();
-            }
+            var dfd = new $.Deferred();
+            http.get(appSettings.root + "<%=modules %>/get/" + id).then(function(data){
+                dfd.resolve(serializer.deserialize(JSON.stringify(data)));
+            }).fail(function(){
+                dfd.reject();
+            });
+            return dfd.promise();
         },
         add: function(item){
             this.items.push(item);
@@ -36,10 +29,18 @@ define(['plugins/http','helpers/serializer','jquery','knockout', 'viewModels/<%=
             return $.ajax({
                 dataType: 'json',
                 type: 'post',
-                url: "/sgreplikat/index.php/<%=modules%>/save",
+                url: appSttings.root + "<%=modules%>/save",
                 data: {request: ko.toJSON(item)}
+            });
+        },
+        delete: function(id)
+        {
+            return $.ajax({
+                dataType: 'json',
+                type: 'post',
+                url: appSettings.root + "<%=modules%>/delete/" + id
             });
         }
     };
-    return proveedores;
+    return <%=modules%>;
 });
