@@ -1,3 +1,4 @@
+CREATE TABLE `clientes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(50) DEFAULT NULL,
   `apellido` varchar(50) DEFAULT NULL,
@@ -6,3 +7,155 @@
   `telefono` varchar(20) DEFAULT NULL,
   `comentarios` varchar(1000) DEFAULT NULL,
   `direccion` varchar(1000) DEFAULT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `ordendecompraitems` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ordendecompra_id` int(11) DEFAULT NULL,
+  `pieza_id` int(11) DEFAULT NULL,
+  `cantidad` int(11) DEFAULT NULL,
+  `precio_unitario` decimal(8,2) DEFAULT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `ordendecompras` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `numero` varchar(20) DEFAULT NULL,
+  `proveedor_id` int(11) DEFAULT NULL,
+  `fecha` date DEFAULT NULL,
+  `fecha_recepcion_estimada` date DEFAULT NULL,
+  `fecha_recepcion_real` date DEFAULT NULL,
+  `estado` int(11) DEFAULT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `pedidoitems` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pedido_id` int(11) NOT NULL,
+  `producto_id` int(11) NOT NULL,
+  `precio_unitario` decimal(18,2) NOT NULL,
+  `cantidad` int(11) NOT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `pedido_id` (`pedido_id`),
+  KEY `producto_id` (`producto_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `pedidos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `codigo` int(11) DEFAULT NULL,
+  `cliente_id` int(11) NOT NULL,
+  `fecha_pedido` date NOT NULL,
+  `fecha_entrega` date NOT NULL,
+  `adelanto` decimal(18,2) NOT NULL,
+  `restoabonado` decimal(18,2) DEFAULT NULL,
+  `comentarios` varchar(1000) DEFAULT NULL,
+  `statuspedido_id` int(11) DEFAULT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_pedido_cliente` (`cliente_id`),
+  KEY `statuspedido_id` (`statuspedido_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `piezas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `codigo` int(11) NOT NULL,
+  `descripcion` varchar(20) DEFAULT NULL,
+  `precio` decimal(18,2) DEFAULT NULL,
+  `stockactual` int(11) NOT NULL,
+  `stockminimo` int(11) NOT NULL,
+  `stockmaximo` int(11) NOT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `productopiezas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `producto_id` int(11) NOT NULL,
+  `pieza_id` int(11) NOT NULL,
+  `cantidad` int(11) NOT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `producto_id` (`producto_id`),
+  KEY `pieza_id` (`pieza_id`),
+  CONSTRAINT `productopiezas_ibfk_1` FOREIGN KEY (`producto_id`) REFERENCES `productos` (`id`),
+  CONSTRAINT `productopiezas_ibfk_2` FOREIGN KEY (`pieza_id`) REFERENCES `piezas` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `productos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `codigo` int(11) NOT NULL,
+  `titulo` varchar(50) NOT NULL,
+  `descripcion` varchar(100) DEFAULT NULL,
+  `precio` decimal(18,2) DEFAULT NULL,
+  `statusproducto_id` int(11) DEFAULT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `modelos_ibfk_1` (`statusproducto_id`),
+  CONSTRAINT `productos_ibfk_1` FOREIGN KEY (`statusproducto_id`) REFERENCES `statusmodelos` (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `proveedores` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(50) DEFAULT NULL,
+  `direccion` varchar(150) DEFAULT NULL,
+  `telefono` varchar(20) DEFAULT NULL,
+  `contacto` varchar(50) DEFAULT NULL,
+  `email` varchar(80) DEFAULT NULL,
+  `comentario` varchar(1000) DEFAULT NULL,
+  `statusproveedor_id` int(11) DEFAULT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `proveedorpiezas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `pieza_id` int(11) NOT NULL,
+  `proveedor_id` int(11) NOT NULL,
+  `precio` decimal(18,2) DEFAULT NULL,
+  `comentarios` varchar(1000) DEFAULT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `pieza_id` (`pieza_id`),
+  KEY `proveedor_id` (`proveedor_id`),
+  CONSTRAINT `proveedorpiezas_ibfk_1` FOREIGN KEY (`pieza_id`) REFERENCES `piezas` (`id`),
+  CONSTRAINT `proveedorpiezas_ibfk_2` FOREIGN KEY (`proveedor_id`) REFERENCES `proveedores` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `statusmodelos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `descripcion` varchar(20) NOT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `statuspedidos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `descripcion` varchar(20) NOT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `statusproveedores` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `codigo` varchar(3) DEFAULT NULL,
+  `descripcion` varchar(20) DEFAULT NULL,
+  `deshabilitado` bit(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;

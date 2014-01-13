@@ -12,6 +12,14 @@
 		
             <th>Empresa</th>
 		
+            <th>Email</th>
+		
+            <th>Telefono</th>
+		
+            <th>Comentarios</th>
+		
+            <th>Direccion</th>
+		
 			<th></th>
         </tr>
     </thead>
@@ -25,6 +33,14 @@
             <td data-bind="text:apellido"></td>
 				
             <td data-bind="text:empresa"></td>
+				
+            <td data-bind="text:email"></td>
+				
+            <td data-bind="text:telefono"></td>
+				
+            <td data-bind="text:comentarios"></td>
+				
+            <td data-bind="text:direccion"></td>
 		
             <td><a data-bind="attr:{href: '#/cliente/edit/' + id()}">Editar</a>
             &nbsp;<a href="#" data-bind="click: $parent.delete">Eliminar</a></td>

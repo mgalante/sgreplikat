@@ -4,28 +4,20 @@ define(['knockout', 'jquery',
     'models/cliente',
     'plugins/router',
     
-    'services/statusproveedores',
-    
     '../../../lib/knockout.selectedValue/knockout.selectedValue',
     'helpers/serializer',
     'ko.validation'], function (ko, $, system, clientes, Cliente, router,
     
-       statusproveedores,
-	
     selectedValue, serializer, validation) {
 
     return function create()
     {
         var self = this;
         self.item = new Cliente({
-		
-			  statusproveedor_id: 0 
 			  
 		});
 
 		        
-        
-        self.statusproveedores = {};
         
 		
         ko.validation.init({
@@ -41,20 +33,11 @@ define(['knockout', 'jquery',
         {
 
             
-            var statusproveedoresPromise = statusproveedores.getAll()
-			.then(function(data)
-			{
-                self.statusproveedores = data;
-            });
-            
 
-			
 			
 			
             return $.when(
                 
-					statusproveedoresPromise
-				
 			).then(function(){
                 ko.validation.init({
                     registerExtenders: true,

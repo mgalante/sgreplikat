@@ -5,5 +5,5 @@ class Cliente extends DataMapper {
     // var $has_one = array("");
 	// var $has_many = array("");
     
-	var $fields = array("id","nombre","apellido","empresa","email","telefono","comentarios","direccion","asdasd _id");
+	var $fields = array("id","nombre","apellido","empresa","email","telefono","comentarios","direccion","deshabilitado");
 }

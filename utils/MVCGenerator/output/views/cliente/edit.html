@@ -1,6 +1,10 @@
 <h1>Editar <span data-bind="text: item.id"></span> </h1>
 
 <div>
+    <label>Id</label>
+    <input data-bind="value: item.id" />
+</div>
+<div>
     <label>Nombre</label>
     <input data-bind="value: item.nombre" />
 </div>
@@ -27,10 +31,6 @@
 <div>
     <label>Direccion</label>
     <input data-bind="value: item.direccion" />
-</div>
-<div>
-    <label>Asdasd _id</label>
-    <select data-bind="options: statusproveedores, optionsText: '_description', value: item.asdasd _id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
 </div>
 
 <br/><div>

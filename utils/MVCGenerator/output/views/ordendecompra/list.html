@@ -1,0 +1,45 @@
+<h1>proveedorList</h1>
+<a class="btn" href='#/ordendecompra/create'>Nuevo</a>
+<table class="table">
+    <thead>
+        <tr>
+		
+            <th>Id</th>
+		
+            <th>Numero</th>
+		
+            <th>Proveedor_id</th>
+		
+            <th>Fecha</th>
+		
+            <th>Fecha_recepcion_estimada</th>
+		
+            <th>Fecha_recepcion_real</th>
+		
+            <th>Estado</th>
+		
+			<th></th>
+        </tr>
+    </thead>
+    <tbody  data-bind="foreach:items">
+        <tr>
+				
+            <td data-bind="text:id"></td>
+				
+            <td data-bind="text:numero"></td>
+				
+            <td data-bind="text:proveedor_id"></td>
+				
+            <td data-bind="text:fecha"></td>
+				
+            <td data-bind="text:fecha_recepcion_estimada"></td>
+				
+            <td data-bind="text:fecha_recepcion_real"></td>
+				
+            <td data-bind="text:estado"></td>
+		
+            <td><a data-bind="attr:{href: '#/ordendecompra/edit/' + id()}">Editar</a>
+            &nbsp;<a href="#" data-bind="click: $parent.delete">Eliminar</a></td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,20 @@
+{"modules":[{"module": "cliente", "modules": "clientes",
+"description" : ["nombre"],
+ "fields" : [
+ { "name" : "id", "type" : "int", "length" : 11, "inlist": true, "visible": false},
+ {"name" : "nombre", "type" : "varchar", "length" : 50, "inlist": true},
+ {"name" : "apellido", "type" : "varchar", "length" : 50, "inlist": true},
+ {"name" : "empresa", "type" : "varchar", "length" : 50, "inlist": true},
+ {"name" : "email", "type" : "varchar", "length" : 100, "inlist": false},
+ {"name" : "telefono", "type" : "varchar", "length" : 20, "inlist": false},
+ {"name" : "comentarios", "type" : "varchar", "length" : 1000, "inlist": false},
+ {"name" : "direccion", "type" : "varchar", "length" : 1000, "inlist": false},
+ {"name":  "asdasd _id",  "type" : "int", "length" : 11, "inlist": false, "belongsTo": {
+        "foreignKey" : "statusproveedor_id",
+        "descriptionField":"_description",
+        "table": "statusproveedores",
+        "module": "statusproveedor",
+        "modules":"statusproveedores"
+    }
+}]
+}]}

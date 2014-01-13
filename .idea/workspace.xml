@@ -5,89 +5,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6debabb0-a414-4c91-bf7f-4d964a2e1c29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/dictionaries/Sam.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/helpers/appSettings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/arrays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/chaining.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/cliente.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/cliente.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/clientes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/clientes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/collections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/create.html.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/create.js.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/ensureDir.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/test/ensureDir.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/libpeerconnection.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/main.js.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/objects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/vendor/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/vendor/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/run-qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/shell.html.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/shell.js.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/speed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/stringUtils/stringUtils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/strings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/strings_standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_standalone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore/underscore-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/underscore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/lib/underscore.string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/dist/underscore.string.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/underscore.string/test/test_underscore/utility.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/welcome.html.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/welcome.js.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/node_modules/ensureDir/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\templates\views\[module]\_details.html.ejs" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\templates\views\[module]\_edit.html.ejs" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\templates\viewmodels\[module]\[module].js.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/models/[module].js.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Miguel.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Miguel.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/php/models/[module].php.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/php/models/[module].php.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/repository/[modules].js.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/repository/[modules].js.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/php/controllers/[modules].php.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/php/controllers/[modules].php.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/config.json2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompra/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompraitem/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedido/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedidoitem/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pieza/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/producto/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/productopieza/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedor/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedorpieza/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusmodelo/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statuspedido/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproveedor/create.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/ordendecompra/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/ordendecompraitem/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pedido/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pedidoitem/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pieza/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/producto/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/productopieza/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/proveedor/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/proveedorpieza/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statusmodelo/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statuspedido/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statusproveedor/create.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompra/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompraitem/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedido/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedidoitem/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pieza/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/producto/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/productopieza/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedor/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedorpieza/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusmodelo/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statuspedido/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproveedor/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/ordendecompra/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/ordendecompraitem/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pedido/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pedidoitem/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pieza/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/producto/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/productopieza/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/proveedor/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/proveedorpieza/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statusmodelo/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statuspedido/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statusproveedor/edit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompra/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompraitem/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedido/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedidoitem/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pieza/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/producto/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/productopieza/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedor/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedorpieza/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusmodelo/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statuspedido/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproveedor/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/ordendecompra/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/ordendecompraitem/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pedido/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pedidoitem/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/pieza/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/producto/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/productopieza/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/proveedor/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/proveedorpieza/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statusmodelo/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statuspedido/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/statusproveedor/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/ordendecompra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/ordendecompra.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/ordendecompraitem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/ordendecompraitem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/ordendecompraitems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/ordendecompraitems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/ordendecompras.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/ordendecompras.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pedido.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/pedido.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pedidoitem.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/pedidoitem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/pedidoitems.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/pedidoitems.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/pedidos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/pedidos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pieza.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/pieza.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/piezas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/piezas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/producto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/producto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/productopieza.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/productopieza.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/productopiezas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/productopiezas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/productos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/productos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/proveedor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/proveedor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/proveedores.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/proveedores.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/proveedorpieza.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/proveedorpieza.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/proveedorpiezas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/proveedorpiezas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statusmodelo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/statusmodelo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/statusmodelos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statusmodelos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statuspedido.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/statuspedido.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/statuspedidos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statuspedidos.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statusproveedor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/statusproveedor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/repository/statusproveedores.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statusproveedores.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\tableInfos.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/models/[module].js.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/models/[module].js.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/cliente.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/cliente.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/cliente.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/models/cliente.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/config.json" afterPath="$PROJECT_DIR$/utils/MVCGenerator/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/create.js" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/create.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/edit.html.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/edit.html.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/edit.js.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/edit.js.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/list.html.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/list.html.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/list.js.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/list.js.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/main.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/create.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/create.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/edit.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/getJson.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/getJson.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/list.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/tableInfo.txt" afterPath="$PROJECT_DIR$/utils/MVCGenerator/tableInfo.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sgreplikat.iws" />
@@ -115,10 +165,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/create.js">
+      <file leaf-file-name="proveedor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/durandal/app/models/proveedor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="5" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1394">
+            <state line="13" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/edit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="9" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proveedores.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/proveedores.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="39" selection-start="397" selection-end="397" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -127,25 +195,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="586" selection-end="586" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="2227">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="34" selection-start="914" selection-end="921" vertical-scroll-proportion="1.4166666" vertical-offset="0" max-vertical-offset="748">
+            <state line="16" column="4" selection-start="586" selection-end="586" vertical-scroll-proportion="-0.33333334" vertical-offset="255" max-vertical-offset="2227">
               <folding />
             </state>
           </provider>
@@ -160,46 +210,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/edit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="748">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/edit.html.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="587" selection-end="587" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="[module].js.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/models/[module].js.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="512" selection-end="512" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="26" selection-start="83" selection-end="83" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="425">
+            <state line="6" column="18" selection-start="302" selection-end="302" vertical-scroll-proportion="-2.6153846" vertical-offset="34" max-vertical-offset="3740">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/main.js.ejs">
+      <file leaf-file-name="getJson.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/getJson.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="536" selection-end="536" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="833">
+            <state line="16" column="26" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tableInfo.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/tableInfo.txt">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0" vertical-offset="17" max-vertical-offset="2839">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json2" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json2">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="57" selection-end="84" vertical-scroll-proportion="0.060714286" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -228,7 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js" />
         <option value="$PROJECT_DIR$/utils/MVCGenerator/node_modules/stringUtils/stringUtils.js" />
         <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/php/controllers/[modules].php.ejs" />
         <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/php/models/[module].php.ejs" />
@@ -244,6 +290,7 @@
         <option value="$PROJECT_DIR$/utils/MVCGenerator/main.js" />
         <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/edit.html.ejs" />
         <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/create.html.ejs" />
+        <option value="$PROJECT_DIR$/utils/MVCGenerator/tableInfo.txt" />
       </list>
     </option>
   </component>
@@ -256,8 +303,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -318,436 +365,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MVCGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVCGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVCGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVCGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="[module]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVCGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVCGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cliente" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVCGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viewmodels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cliente" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVCGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proveedor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viewmodels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viewmodels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proveedor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -903,26 +520,30 @@
       <created>1388806469325</created>
       <updated>1388806469325</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="abm">
+      <created>1389237015699</created>
+      <updated>1389237015699</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18661518" sideWeight="0.67128986" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21969697" sideWeight="0.5976231" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14840499" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3965054" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40237692" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -982,65 +603,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/getJson.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/proveedor/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/edit.js.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="57" selection-start="1195" selection-end="1195" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/list.js.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="526" selection-end="526" vertical-scroll-proportion="-11.384615" vertical-offset="10" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="28" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/main.js.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="22" selection-start="536" selection-end="536" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="83" selection-end="83" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
@@ -1052,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="586" selection-end="586" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="2227">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/edit.html.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="9" selection-start="587" selection-end="587" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374">
@@ -1066,16 +624,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/edit.html">
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="646">
+        <state line="7" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
@@ -1087,9 +638,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/create.html">
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="34" selection-start="914" selection-end="921" vertical-scroll-proportion="1.4166666" vertical-offset="0" max-vertical-offset="748">
+        <state line="14" column="9" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/proveedores.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="397" selection-end="397" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/models/proveedor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="586" selection-end="586" vertical-scroll-proportion="-0.33333334" vertical-offset="255" max-vertical-offset="2227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="302" selection-end="302" vertical-scroll-proportion="-2.6153846" vertical-offset="34" max-vertical-offset="3740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/getJson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/tableInfo.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0" vertical-offset="17" max-vertical-offset="2839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json2">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="57" selection-end="84" vertical-scroll-proportion="0.060714286" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>

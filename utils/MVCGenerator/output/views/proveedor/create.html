@@ -1,0 +1,38 @@
+<h1>Crear <span data-bind="text: item.id"></span></h1>
+
+<div>
+    <label>Id</label>
+    <input data-bind="value: item.id" />
+</div>
+<div>
+    <label>Nombre</label>
+    <input data-bind="value: item.nombre" />
+</div>
+<div>
+    <label>Direccion</label>
+    <input data-bind="value: item.direccion" />
+</div>
+<div>
+    <label>Telefono</label>
+    <input data-bind="value: item.telefono" />
+</div>
+<div>
+    <label>Contacto</label>
+    <input data-bind="value: item.contacto" />
+</div>
+<div>
+    <label>Email</label>
+    <input data-bind="value: item.email" />
+</div>
+<div>
+    <label>Comentario</label>
+    <input data-bind="value: item.comentario" />
+</div>
+<div>
+    <label>Statusproveedor_id</label>
+    <select data-bind="options: statusproveedores, optionsText: '_description', value: item.statusproveedor_id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
+</div>
+
+<br/><div>
+    <button class="btn btn-primary" data-bind="click:create">Crear</button>&nbsp;<a href="#/proveedor/list" class="btn">Cancelar</a>
+</div>

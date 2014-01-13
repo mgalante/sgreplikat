@@ -1,0 +1,33 @@
+<h1>proveedorList</h1>
+<a class="btn" href='#/productopieza/create'>Nuevo</a>
+<table class="table">
+    <thead>
+        <tr>
+		
+            <th>Id</th>
+		
+            <th>Producto_id</th>
+		
+            <th>Pieza_id</th>
+		
+            <th>Cantidad</th>
+		
+			<th></th>
+        </tr>
+    </thead>
+    <tbody  data-bind="foreach:items">
+        <tr>
+				
+            <td data-bind="text:id"></td>
+				
+            <td data-bind="text:producto_id"></td>
+				
+            <td data-bind="text:pieza_id"></td>
+				
+            <td data-bind="text:cantidad"></td>
+		
+            <td><a data-bind="attr:{href: '#/productopieza/edit/' + id()}">Editar</a>
+            &nbsp;<a href="#" data-bind="click: $parent.delete">Eliminar</a></td>
+        </tr>
+    </tbody>
+</table>
