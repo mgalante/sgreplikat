@@ -7,7 +7,7 @@ define(['knockout', 'jquery'], function (ko, $) {
 <% } %>
 
 		self._description = ko.computed(function(){
-			return self.<%=description.join('()+ " " + self.')%>();
+			return self.<%- description.join('()+ " " + self.')%>();
 		});
 
         self.setFromJS = function(obj)

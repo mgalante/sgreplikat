@@ -1,0 +1,34 @@
+<h1>Crear <span data-bind="text: item.id"></span></h1>
+
+<div>
+    <label>Id</label>
+    <input data-bind="value: item.id" />
+</div>
+<div>
+    <label>Codigo</label>
+    <input data-bind="value: item.codigo" />
+</div>
+<div>
+    <label>Descripcion</label>
+    <input data-bind="value: item.descripcion" />
+</div>
+<div>
+    <label>Precio</label>
+    <input data-bind="value: item.precio" />
+</div>
+<div>
+    <label>Stockactual</label>
+    <input data-bind="value: item.stockactual" />
+</div>
+<div>
+    <label>Stockminimo</label>
+    <input data-bind="value: item.stockminimo" />
+</div>
+<div>
+    <label>Stockmaximo</label>
+    <input data-bind="value: item.stockmaximo" />
+</div>
+
+<br/><div>
+    <button class="btn btn-primary" data-bind="click:create">Crear</button>&nbsp;<a href="#/pieza/list" class="btn">Cancelar</a>
+</div>

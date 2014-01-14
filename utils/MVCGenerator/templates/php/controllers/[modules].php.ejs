@@ -1,17 +1,18 @@
 <?php
 require(APPPATH.'libraries/REST_Controller.php');
 
-class <%= _.str.capitalize(module)%> extends REST_Controller{
+class <%= _.str.capitalize(modules)%> extends REST_Controller{
     public function list_get()
     {
         $entities = new <%= _.str.capitalize(module)%>();
-        /*$entities->include_related('statusproveedor', '*', TRUE, TRUE)->get();*/
-
         $entities->where("deshabilitado = 0")->get();
-
-        foreach($entities as $entity)
-        {
-           $entity->statusproveedor->get();
+        if($entities->exists()){
+<% for(var i in foreignKeys) {%>
+            foreach($entities as $entity)
+            {
+               $entity-><%=foreignKeys[i].belongsTo.module%>->get();
+            }
+<% } %>
         }
         $this->response($this->generic_repository->all_to_array($entities),200);
     }
@@ -24,7 +25,11 @@ class <%= _.str.capitalize(module)%> extends REST_Controller{
         {
             show_404();
         }
-        $entity->statusproveedor->get();
+
+<% for(var i in foreignKeys) {%>
+        $entity-><%=foreignKeys[i].belongsTo.module%>->get();
+<% } %>
+
         $this->response($this->generic_repository->to_array($entity), 200);
     }
 

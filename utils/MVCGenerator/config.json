@@ -191,14 +191,7 @@
  {"name" : "deshabilitado", "type" : "bit", "length" : 1, "inlist": false, "visible" : false}
  ]},
 
-{"module": "statusmodelo", "modules" : "statusmodelos", 
-"description" : ["descripcion"],
-"fields": [ 
- {"name" : "id", "type" : "int", "length" : 11, "inlist": true, "visible" : true},
- {"name" : "descripcion", "type" : "varchar", "length" : 20, "inlist": true, "visible" : true},
- {"name" : "deshabilitado", "type" : "bit", "length" : 1, "inlist": false, "visible" : false}]},
-
-{"module": "statuspedido", "modules" : "statuspedidos", 
+{"module": "statuspedido", "modules" : "statuspedidos",
 "description" : ["descripcion"],
 "fields": [ 
  {"name" : "id", "type" : "int", "length" : 11, "inlist": true, "visible" : true},
@@ -211,5 +204,14 @@
  {"name" : "id", "type" : "int", "length" : 11, "inlist": true, "visible" : true},
  {"name" : "codigo", "type" : "varchar", "length" : 3, "inlist": true, "visible" : true},
  {"name" : "descripcion", "type" : "varchar", "length" : 20, "inlist": true, "visible" : true},
- {"name" : "deshabilitado", "type" : "bit", "length" : 1, "inlist": true, "visible" : false}]}
+ {"name" : "deshabilitado", "type" : "bit", "length" : 1, "inlist": true, "visible" : false}]},
+
+{"module": "statusproducto", "modules" : "statusproductos",
+"description" : ["descripcion"],
+"fields": [
+{"name" : "id", "type" : "int", "length" : 11, "inlist": true, "visible" : true},
+{"name" : "codigo", "type" : "varchar", "length" : 3, "inlist": true, "visible" : true},
+{"name" : "descripcion", "type" : "varchar", "length" : 20, "inlist": true, "visible" : true},
+{"name" : "deshabilitado", "type" : "bit", "length" : 1, "inlist": true, "visible" : false}]}
+
 ]}

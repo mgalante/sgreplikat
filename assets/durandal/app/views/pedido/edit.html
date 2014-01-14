@@ -1,0 +1,42 @@
+<h1>Editar <span data-bind="text: item.id"></span> </h1>
+
+<div>
+    <label>Id</label>
+    <input data-bind="value: item.id" />
+</div>
+<div>
+    <label>Codigo</label>
+    <input data-bind="value: item.codigo" />
+</div>
+<div>
+    <label>Cliente_id</label>
+    <select data-bind="options: clientes, optionsText: '_description', value: item.cliente_id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
+</div>
+<div>
+    <label>Fecha_pedido</label>
+    <input data-bind="value: item.fecha_pedido" />
+</div>
+<div>
+    <label>Fecha_entrega</label>
+    <input data-bind="value: item.fecha_entrega" />
+</div>
+<div>
+    <label>Adelanto</label>
+    <input data-bind="value: item.adelanto" />
+</div>
+<div>
+    <label>Restoabonado</label>
+    <input data-bind="value: item.restoabonado" />
+</div>
+<div>
+    <label>Comentarios</label>
+    <input data-bind="value: item.comentarios" />
+</div>
+<div>
+    <label>Statuspedido_id</label>
+    <select data-bind="options: statuspedidos, optionsText: '_description', value: item.statuspedido_id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
+</div>
+
+<br/><div>
+    <button class="btn btn-primary" data-bind="click:save">Guardar</button>&nbsp;<a href="#/pedido/list" class="btn">Cancelar</a>
+</div>

@@ -2,8 +2,19 @@
 
 class <%= _.str.capitalize(module)%> extends DataMapper {
     var $table = '<%=modules%>';
-    // var $has_one = array("");
-	// var $has_many = array("");
-    
-	var $fields = array("<%=fields[0].name%>"<% for(var i=1;i<fields.length;i++){%>,"<%=fields[i].name%>"<%}%>);
+<%if(hasMany.length > 0){%>
+        var $has_many = array(
+    <%for(var i in hasMany){%>
+        <%=((i>0)?',':'' )%>"<%=hasMany[i]%>"
+    <%}%>
+        );
+<%}%>
+
+<% if(foreignKeys.length > 0){%>
+        var $has_one = array(
+    <%for(var i in foreignKeys){%>
+        <%=((i>0)?',':'' )%>"<%=foreignKeys[i].belongsTo.module%>"
+    <%}%>
+        );
+<%}%>
 }

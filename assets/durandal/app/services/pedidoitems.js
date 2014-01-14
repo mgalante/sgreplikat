@@ -1,10 +1,10 @@
 define(['plugins/http','helpers/serializer','jquery','knockout', 'helpers/appSettings'],function(http,serializer,$,ko,appSettings){
 
-    var <%=modules%> = {
+    var pedidoitems = {
         getAll: function()
         {
             var dfd = new $.Deferred();
-            http.get(appSettings.root + "<%=modules%>/list").then(function(data){
+            http.get(appSettings.root + "pedidoitems/list").then(function(data){
                 dfd.resolve(serializer.deserialize(JSON.stringify(data)));
             }).fail(function(){
                 dfd.reject();
@@ -14,7 +14,7 @@ define(['plugins/http','helpers/serializer','jquery','knockout', 'helpers/appSet
         getById: function(id)
         {
             var dfd = new $.Deferred();
-            http.get(appSettings.root + "<%=modules %>/get/" + id).then(function(data){
+            http.get(appSettings.root + "pedidoitems/get/" + id).then(function(data){
                 dfd.resolve(serializer.deserialize(JSON.stringify(data)));
             }).fail(function(){
                 dfd.reject();
@@ -29,7 +29,7 @@ define(['plugins/http','helpers/serializer','jquery','knockout', 'helpers/appSet
             return $.ajax({
                 dataType: 'json',
                 type: 'post',
-                url: appSttings.root + "<%=modules%>/save",
+                url: appSettings.root + "pedidoitems/save",
                 data: {request: ko.toJSON(item)}
             });
         },
@@ -38,9 +38,9 @@ define(['plugins/http','helpers/serializer','jquery','knockout', 'helpers/appSet
             return $.ajax({
                 dataType: 'json',
                 type: 'post',
-                url: appSettings.root + "<%=modules%>/delete/" + id
+                url: appSettings.root + "pedidoitems/delete/" + id
             });
         }
     };
-    return <%=modules%>;
+    return pedidoitems;
 });

@@ -11,7 +11,7 @@ define(['knockout', 'jquery',
     'ko.validation'], function (ko, $, system, <%=modules%>, router, <%for(var i in fields){    
         if(fields[i].belongsTo){%>
        <%=fields[i].belongsTo.modules%>,
-	   <%}}%>, selectedValue, serializer, validation) {
+	   <%}}%> selectedValue, serializer, validation) {
     return function edit()
     {
         var self = this;

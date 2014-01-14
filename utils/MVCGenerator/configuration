@@ -1,0 +1,2551 @@
+{
+ "modules": [
+  {
+   "module": "cliente",
+   "modules": "clientes",
+   "description": [
+    "nombre",
+    "apellido"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "nombre",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Nombre"
+    },
+    {
+     "name": "apellido",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Apellido"
+    },
+    {
+     "name": "empresa",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Empresa"
+    },
+    {
+     "name": "email",
+     "type": "varchar",
+     "length": 100,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Email"
+    },
+    {
+     "name": "telefono",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Telefono"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    },
+    {
+     "name": "direccion",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Direccion"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [
+    "pedido"
+   ],
+   "foreignKeys": [],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "nombre",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Nombre"
+    },
+    {
+     "name": "apellido",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Apellido"
+    },
+    {
+     "name": "empresa",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Empresa"
+    },
+    {
+     "name": "email",
+     "type": "varchar",
+     "length": 100,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Email"
+    },
+    {
+     "name": "telefono",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Telefono"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    },
+    {
+     "name": "direccion",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Direccion"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "nombre",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Nombre"
+    },
+    {
+     "name": "apellido",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Apellido"
+    },
+    {
+     "name": "empresa",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Empresa"
+    },
+    {
+     "name": "email",
+     "type": "varchar",
+     "length": 100,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Email"
+    },
+    {
+     "name": "telefono",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Telefono"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    },
+    {
+     "name": "direccion",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Direccion"
+    }
+   ]
+  },
+  {
+   "module": "ordendecompraitem",
+   "modules": "ordendecompraitems",
+   "description": [
+    "id"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "ordendecompra_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Ordendecompra_id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    },
+    {
+     "name": "precio_unitario",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio_unitario"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    }
+   ],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "ordendecompra_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Ordendecompra_id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    },
+    {
+     "name": "precio_unitario",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio_unitario"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "ordendecompra_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Ordendecompra_id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    },
+    {
+     "name": "precio_unitario",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio_unitario"
+    }
+   ]
+  },
+  {
+   "module": "ordendecompra",
+   "modules": "ordendecompras",
+   "description": [
+    "numero"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "numero",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Numero"
+    },
+    {
+     "name": "proveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "proveedor_id",
+      "descriptionField": "_description",
+      "table": "proveedores",
+      "module": "proveedor",
+      "modules": "proveedores"
+     },
+     "displayName": "Proveedor_id"
+    },
+    {
+     "name": "fecha",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha"
+    },
+    {
+     "name": "fecha_recepcion_estimada",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_recepcion_estimada"
+    },
+    {
+     "name": "fecha_recepcion_real",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_recepcion_real"
+    },
+    {
+     "name": "estado",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Estado"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [
+    {
+     "name": "proveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "proveedor_id",
+      "descriptionField": "_description",
+      "table": "proveedores",
+      "module": "proveedor",
+      "modules": "proveedores"
+     },
+     "displayName": "Proveedor_id"
+    }
+   ],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "numero",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Numero"
+    },
+    {
+     "name": "proveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "proveedor_id",
+      "descriptionField": "_description",
+      "table": "proveedores",
+      "module": "proveedor",
+      "modules": "proveedores"
+     },
+     "displayName": "Proveedor_id"
+    },
+    {
+     "name": "fecha",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha"
+    },
+    {
+     "name": "fecha_recepcion_estimada",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_recepcion_estimada"
+    },
+    {
+     "name": "fecha_recepcion_real",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_recepcion_real"
+    },
+    {
+     "name": "estado",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Estado"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "numero",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Numero"
+    },
+    {
+     "name": "proveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "proveedor_id",
+      "descriptionField": "_description",
+      "table": "proveedores",
+      "module": "proveedor",
+      "modules": "proveedores"
+     },
+     "displayName": "Proveedor_id"
+    },
+    {
+     "name": "fecha",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha"
+    },
+    {
+     "name": "fecha_recepcion_estimada",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_recepcion_estimada"
+    },
+    {
+     "name": "fecha_recepcion_real",
+     "type": "date",
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_recepcion_real"
+    },
+    {
+     "name": "estado",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Estado"
+    }
+   ]
+  },
+  {
+   "module": "pedidoitem",
+   "modules": "pedidoitems",
+   "description": [
+    "id"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "pedido_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pedido_id",
+      "descriptionField": "_description",
+      "table": "pedidos",
+      "module": "pedido",
+      "modules": "pedidos"
+     },
+     "displayName": "Pedido_id"
+    },
+    {
+     "name": "producto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "producto_id",
+      "descriptionField": "_description",
+      "table": "productos",
+      "module": "producto",
+      "modules": "productos"
+     },
+     "displayName": "Producto_id"
+    },
+    {
+     "name": "precio_unitario",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio_unitario"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [
+    {
+     "name": "pedido_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pedido_id",
+      "descriptionField": "_description",
+      "table": "pedidos",
+      "module": "pedido",
+      "modules": "pedidos"
+     },
+     "displayName": "Pedido_id"
+    },
+    {
+     "name": "producto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "producto_id",
+      "descriptionField": "_description",
+      "table": "productos",
+      "module": "producto",
+      "modules": "productos"
+     },
+     "displayName": "Producto_id"
+    }
+   ],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "pedido_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pedido_id",
+      "descriptionField": "_description",
+      "table": "pedidos",
+      "module": "pedido",
+      "modules": "pedidos"
+     },
+     "displayName": "Pedido_id"
+    },
+    {
+     "name": "producto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "producto_id",
+      "descriptionField": "_description",
+      "table": "productos",
+      "module": "producto",
+      "modules": "productos"
+     },
+     "displayName": "Producto_id"
+    },
+    {
+     "name": "precio_unitario",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio_unitario"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "pedido_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pedido_id",
+      "descriptionField": "_description",
+      "table": "pedidos",
+      "module": "pedido",
+      "modules": "pedidos"
+     },
+     "displayName": "Pedido_id"
+    },
+    {
+     "name": "producto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "producto_id",
+      "descriptionField": "_description",
+      "table": "productos",
+      "module": "producto",
+      "modules": "productos"
+     },
+     "displayName": "Producto_id"
+    },
+    {
+     "name": "precio_unitario",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio_unitario"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    }
+   ]
+  },
+  {
+   "module": "pedido",
+   "modules": "pedidos",
+   "description": [
+    "codigo"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "cliente_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "cliente_id",
+      "descriptionField": "_description",
+      "table": "clientes",
+      "module": "cliente",
+      "modules": "clientes"
+     },
+     "displayName": "Cliente_id"
+    },
+    {
+     "name": "fecha_pedido",
+     "type": "date",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_pedido"
+    },
+    {
+     "name": "fecha_entrega",
+     "type": "date",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_entrega"
+    },
+    {
+     "name": "adelanto",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Adelanto"
+    },
+    {
+     "name": "restoabonado",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Restoabonado"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    },
+    {
+     "name": "statuspedido_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statuspedido_id",
+      "descriptionField": "_description",
+      "table": "statuspedidos",
+      "module": "statuspedido",
+      "modules": "statuspedidos"
+     },
+     "displayName": "Statuspedido_id"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [
+    {
+     "name": "cliente_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "cliente_id",
+      "descriptionField": "_description",
+      "table": "clientes",
+      "module": "cliente",
+      "modules": "clientes"
+     },
+     "displayName": "Cliente_id"
+    },
+    {
+     "name": "statuspedido_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statuspedido_id",
+      "descriptionField": "_description",
+      "table": "statuspedidos",
+      "module": "statuspedido",
+      "modules": "statuspedidos"
+     },
+     "displayName": "Statuspedido_id"
+    }
+   ],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "cliente_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "cliente_id",
+      "descriptionField": "_description",
+      "table": "clientes",
+      "module": "cliente",
+      "modules": "clientes"
+     },
+     "displayName": "Cliente_id"
+    },
+    {
+     "name": "fecha_pedido",
+     "type": "date",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_pedido"
+    },
+    {
+     "name": "fecha_entrega",
+     "type": "date",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_entrega"
+    },
+    {
+     "name": "adelanto",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Adelanto"
+    },
+    {
+     "name": "restoabonado",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Restoabonado"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    },
+    {
+     "name": "statuspedido_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statuspedido_id",
+      "descriptionField": "_description",
+      "table": "statuspedidos",
+      "module": "statuspedido",
+      "modules": "statuspedidos"
+     },
+     "displayName": "Statuspedido_id"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "cliente_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "cliente_id",
+      "descriptionField": "_description",
+      "table": "clientes",
+      "module": "cliente",
+      "modules": "clientes"
+     },
+     "displayName": "Cliente_id"
+    },
+    {
+     "name": "fecha_pedido",
+     "type": "date",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_pedido"
+    },
+    {
+     "name": "fecha_entrega",
+     "type": "date",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Fecha_entrega"
+    },
+    {
+     "name": "adelanto",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Adelanto"
+    },
+    {
+     "name": "restoabonado",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Restoabonado"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    },
+    {
+     "name": "statuspedido_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statuspedido_id",
+      "descriptionField": "_description",
+      "table": "statuspedidos",
+      "module": "statuspedido",
+      "modules": "statuspedidos"
+     },
+     "displayName": "Statuspedido_id"
+    }
+   ]
+  },
+  {
+   "module": "pieza",
+   "modules": "piezas",
+   "description": [
+    "codigo",
+    "descripcion"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "stockactual",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockactual"
+    },
+    {
+     "name": "stockminimo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockminimo"
+    },
+    {
+     "name": "stockmaximo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockmaximo"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [
+    "productopieza",
+    "proveedorpieza"
+   ],
+   "foreignKeys": [],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "stockactual",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockactual"
+    },
+    {
+     "name": "stockminimo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockminimo"
+    },
+    {
+     "name": "stockmaximo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockmaximo"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "stockactual",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockactual"
+    },
+    {
+     "name": "stockminimo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockminimo"
+    },
+    {
+     "name": "stockmaximo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Stockmaximo"
+    }
+   ]
+  },
+  {
+   "module": "productopieza",
+   "modules": "productopiezas",
+   "description": [
+    "id"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "producto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "producto_id",
+      "descriptionField": "_description",
+      "table": "productos",
+      "module": "producto",
+      "modules": "productos"
+     },
+     "displayName": "Producto_id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [
+    {
+     "name": "producto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "producto_id",
+      "descriptionField": "_description",
+      "table": "productos",
+      "module": "producto",
+      "modules": "productos"
+     },
+     "displayName": "Producto_id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    }
+   ],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "producto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "producto_id",
+      "descriptionField": "_description",
+      "table": "productos",
+      "module": "producto",
+      "modules": "productos"
+     },
+     "displayName": "Producto_id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "producto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "producto_id",
+      "descriptionField": "_description",
+      "table": "productos",
+      "module": "producto",
+      "modules": "productos"
+     },
+     "displayName": "Producto_id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "cantidad",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Cantidad"
+    }
+   ]
+  },
+  {
+   "module": "producto",
+   "modules": "productos",
+   "description": [
+    "codigo",
+    "titulo"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "titulo",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Titulo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 100,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "statusproducto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statusproducto_id",
+      "descriptionField": "_description",
+      "table": "statusproductos",
+      "module": "statusproducto",
+      "modules": "statusproductos"
+     },
+     "displayName": "Statusproducto_id"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [
+    {
+     "name": "statusproducto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statusproducto_id",
+      "descriptionField": "_description",
+      "table": "statusproductos",
+      "module": "statusproducto",
+      "modules": "statusproductos"
+     },
+     "displayName": "Statusproducto_id"
+    }
+   ],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "titulo",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Titulo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 100,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "statusproducto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statusproducto_id",
+      "descriptionField": "_description",
+      "table": "statusproductos",
+      "module": "statusproducto",
+      "modules": "statusproductos"
+     },
+     "displayName": "Statusproducto_id"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "titulo",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Titulo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 100,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "statusproducto_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statusproducto_id",
+      "descriptionField": "_description",
+      "table": "statusproductos",
+      "module": "statusproducto",
+      "modules": "statusproductos"
+     },
+     "displayName": "Statusproducto_id"
+    }
+   ]
+  },
+  {
+   "module": "proveedor",
+   "modules": "proveedores",
+   "description": [
+    "nombre"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "nombre",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Nombre"
+    },
+    {
+     "name": "direccion",
+     "type": "varchar",
+     "length": 150,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Direccion"
+    },
+    {
+     "name": "telefono",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Telefono"
+    },
+    {
+     "name": "contacto",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Contacto"
+    },
+    {
+     "name": "email",
+     "type": "varchar",
+     "length": 80,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Email"
+    },
+    {
+     "name": "comentario",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentario"
+    },
+    {
+     "name": "statusproveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statusproveedor_id",
+      "descriptionField": "_description",
+      "table": "statusproveedores",
+      "module": "statusproveedor",
+      "modules": "statusproveedores"
+     },
+     "displayName": "Statusproveedor_id"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [
+    "proveedorpieza"
+   ],
+   "foreignKeys": [
+    {
+     "name": "statusproveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statusproveedor_id",
+      "descriptionField": "_description",
+      "table": "statusproveedores",
+      "module": "statusproveedor",
+      "modules": "statusproveedores"
+     },
+     "displayName": "Statusproveedor_id"
+    }
+   ],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "nombre",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Nombre"
+    },
+    {
+     "name": "direccion",
+     "type": "varchar",
+     "length": 150,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Direccion"
+    },
+    {
+     "name": "telefono",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Telefono"
+    },
+    {
+     "name": "contacto",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Contacto"
+    },
+    {
+     "name": "email",
+     "type": "varchar",
+     "length": 80,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Email"
+    },
+    {
+     "name": "comentario",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentario"
+    },
+    {
+     "name": "statusproveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statusproveedor_id",
+      "descriptionField": "_description",
+      "table": "statusproveedores",
+      "module": "statusproveedor",
+      "modules": "statusproveedores"
+     },
+     "displayName": "Statusproveedor_id"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "nombre",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Nombre"
+    },
+    {
+     "name": "direccion",
+     "type": "varchar",
+     "length": 150,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Direccion"
+    },
+    {
+     "name": "telefono",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Telefono"
+    },
+    {
+     "name": "contacto",
+     "type": "varchar",
+     "length": 50,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Contacto"
+    },
+    {
+     "name": "email",
+     "type": "varchar",
+     "length": 80,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Email"
+    },
+    {
+     "name": "comentario",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentario"
+    },
+    {
+     "name": "statusproveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "statusproveedor_id",
+      "descriptionField": "_description",
+      "table": "statusproveedores",
+      "module": "statusproveedor",
+      "modules": "statusproveedores"
+     },
+     "displayName": "Statusproveedor_id"
+    }
+   ]
+  },
+  {
+   "module": "proveedorpieza",
+   "modules": "proveedorpiezas",
+   "description": [
+    "id"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "proveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "proveedor_id",
+      "descriptionField": "_description",
+      "table": "proveedores",
+      "module": "proveedor",
+      "modules": "proveedores"
+     },
+     "displayName": "Proveedor_id"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "proveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "proveedor_id",
+      "descriptionField": "_description",
+      "table": "proveedores",
+      "module": "proveedor",
+      "modules": "proveedores"
+     },
+     "displayName": "Proveedor_id"
+    }
+   ],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "proveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "proveedor_id",
+      "descriptionField": "_description",
+      "table": "proveedores",
+      "module": "proveedor",
+      "modules": "proveedores"
+     },
+     "displayName": "Proveedor_id"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "pieza_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "pieza_id",
+      "descriptionField": "_description",
+      "table": "piezas",
+      "module": "pieza",
+      "modules": "piezas"
+     },
+     "displayName": "Pieza_id"
+    },
+    {
+     "name": "proveedor_id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "belongsTo": {
+      "foreignKey": "proveedor_id",
+      "descriptionField": "_description",
+      "table": "proveedores",
+      "module": "proveedor",
+      "modules": "proveedores"
+     },
+     "displayName": "Proveedor_id"
+    },
+    {
+     "name": "precio",
+     "type": "decimal",
+     "length": [
+      18,
+      2
+     ],
+     "inlist": true,
+     "visible": true,
+     "displayName": "Precio"
+    },
+    {
+     "name": "comentarios",
+     "type": "varchar",
+     "length": 1000,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Comentarios"
+    }
+   ]
+  },
+  {
+   "module": "statuspedido",
+   "modules": "statuspedidos",
+   "description": [
+    "descripcion"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": false,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    }
+   ]
+  },
+  {
+   "module": "statusproveedor",
+   "modules": "statusproveedores",
+   "description": [
+    "descripcion"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "varchar",
+     "length": 3,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": true,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "varchar",
+     "length": 3,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "varchar",
+     "length": 3,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": true,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ]
+  },
+  {
+   "module": "statusproducto",
+   "modules": "statusproductos",
+   "description": [
+    "descripcion"
+   ],
+   "fields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "varchar",
+     "length": 3,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": true,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ],
+   "hasMany": [],
+   "foreignKeys": [],
+   "visibleFields": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "varchar",
+     "length": 3,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    }
+   ],
+   "fieldsInList": [
+    {
+     "name": "id",
+     "type": "int",
+     "length": 11,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Id"
+    },
+    {
+     "name": "codigo",
+     "type": "varchar",
+     "length": 3,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Codigo"
+    },
+    {
+     "name": "descripcion",
+     "type": "varchar",
+     "length": 20,
+     "inlist": true,
+     "visible": true,
+     "displayName": "Descripcion"
+    },
+    {
+     "name": "deshabilitado",
+     "type": "bit",
+     "length": 1,
+     "inlist": true,
+     "visible": false,
+     "displayName": "Deshabilitado"
+    }
+   ]
+  }
+ ]
+}

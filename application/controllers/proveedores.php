@@ -5,12 +5,14 @@ class Proveedores extends REST_Controller{
     public function list_get()
     {
         $entities = new Proveedor();
-        //$entities->include_related('statusproveedor', '*', TRUE, TRUE)->get();
         $entities->where("deshabilitado = 0")->get();
+        if($entities->exists()){
 
-        foreach($entities as $entity)
-        {
-            $entity->statusproveedor->get();
+            foreach($entities as $entity)
+            {
+               $entity->statusproveedor->get();
+            }
+
         }
         $this->response($this->generic_repository->all_to_array($entities),200);
     }
@@ -23,7 +25,11 @@ class Proveedores extends REST_Controller{
         {
             show_404();
         }
+
+
         $entity->statusproveedor->get();
+
+
         $this->response($this->generic_repository->to_array($entity), 200);
     }
 

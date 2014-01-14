@@ -7,7 +7,7 @@ var config = loadConfig();
 var moduleFiles = [
     "/php/controllers/[modules].php.ejs",
     "/php/models/[module].php.ejs",
-    "/repository/[modules].js.ejs",
+    "/services/[modules].js.ejs",
     "/viewmodels/[module]/create.js.ejs",
     "/viewmodels/[module]/edit.js.ejs",
     "/viewmodels/[module]/list.js.ejs",
@@ -18,11 +18,12 @@ var moduleFiles = [
  ];
 
  var globalFiles = [
-//    "/main.js.ejs",
-//    "/viewmodels/shell.js.ejs",
-//    "/viewmodels/welcome.js.ejs",
-//	"/views/welcome.html.ejs",
-//	"/views/shell.html.ejs"	
+    "/main.js.ejs",
+    "/viewmodels/shell.js.ejs",
+    "/viewmodels/welcome.js.ejs",
+	"/views/welcome.html.ejs",
+    "/helpers/serializer.js.ejs",
+	"/views/shell.html.ejs"	
  ];
 
  
@@ -57,13 +58,17 @@ function loadConfig()
     var configJson = fs.readFileSync("config.json");
     var config = JSON.parse(configJson);
     _.each(config.modules,function(module){
-        if(!module.modules)
+        module.hasMany = [];
+    });
+
+     _.each(config.modules,function(module){
+
+            if(!module.modules)
         {
             module.modules = module.module + "s"
         }
-		
-		
-		_.each(module.fields, function(field)
+
+        _.each(module.fields, function(field)
 		{
 			if(field.displayName === void 0)
 			{
@@ -79,13 +84,24 @@ function loadConfig()
 			{
 				field.inlist = true;
 			}
-		});
+
+            if(field.belongsTo)
+            {
+                var moduleAffected = _.find(config.modules,function(module){
+                    return module.module == field.belongsTo.module;
+                });
+                moduleAffected.hasMany.push(module.module);
+
+            }
+        });
 		
-        module.foreignKeys = _.filter(module.fields,function(field){ return field.belongsTo});		
+        module.foreignKeys = _.filter(module.fields,function(field){ return field.belongsTo});
+        //module.hasMany = _.filter(module.fields,function(field){ return field.belongsTo});
 		module.visibleFields =  _.filter(module.fields, function(field) { return field.visible});			
 		module.fieldsInList =  _.filter(module.fields, function(field) { return field.inlist});			
 		
     });
+    console.log(JSON.stringify(config,null," "));
     return config;
 }
 

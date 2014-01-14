@@ -1,0 +1,37 @@
+<h1>proveedorList</h1>
+<a class="btn" href='#/ordendecompraitem/create'>Nuevo</a>
+<table class="table">
+    <thead>
+        <tr>
+		
+            <th>Id</th>
+		
+            <th>Ordendecompra_id</th>
+		
+            <th>Pieza_id</th>
+		
+            <th>Cantidad</th>
+		
+            <th>Precio_unitario</th>
+		
+			<th></th>
+        </tr>
+    </thead>
+    <tbody  data-bind="foreach:items">
+        <tr>
+				
+            <td data-bind="text:id"></td>
+				
+            <td data-bind="text:ordendecompra_id"></td>
+				
+            <td data-bind="text:pieza_id"></td>
+				
+            <td data-bind="text:cantidad"></td>
+				
+            <td data-bind="text:precio_unitario"></td>
+		
+            <td><a data-bind="attr:{href: '#/ordendecompraitem/edit/' + id()}">Editar</a>
+            &nbsp;<a href="#" data-bind="click: $parent.delete">Eliminar</a></td>
+        </tr>
+    </tbody>
+</table>

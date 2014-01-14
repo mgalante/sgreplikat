@@ -3,7 +3,7 @@ define(['knockout',
     'jquery',
     'models/proveedor',
     'durandal/system',
-    'services/proveedores'], function (ko, app, $, Proveedor,system, proveedores) {
+    'services/proveedores'], function (ko, app, $, Proveedor, system, proveedores) {
     return function list()
     {
         var self = this;
@@ -11,16 +11,15 @@ define(['knockout',
         self.activate = function()
         {
             return proveedores.getAll().then(function(items){
-                    self.items(items);
-                }
-            );
+                self.items(items);
+            });
         };
-
+		
         self.delete = function()
         {
             var item = this;
             app.showMessage(
-                "Esta seguro que desea eliminar " + item.nombre(),
+                "Esta seguro que desea eliminar " + item._description(),
                 "Eliminar",
                 ["Sí", "No"]
             ).then(function(data){

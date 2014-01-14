@@ -9,7 +9,7 @@ define(['knockout', 'jquery',
     'helpers/serializer',
     'ko.validation'], function (ko, $, system, proveedores, router, 
        statusproveedores,
-	   , selectedValue, serializer, validation) {
+	    selectedValue, serializer, validation) {
     return function edit()
     {
         var self = this;

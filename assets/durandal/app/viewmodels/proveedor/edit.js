@@ -1,28 +1,39 @@
 define(['knockout', 'jquery',
     'durandal/system',
     'services/proveedores',
-    'plugins/router','services/statusProveedores',
+    'plugins/router',
+  
+    'services/statusproveedores',
+    
     '../../../lib/knockout.selectedValue/knockout.selectedValue',
     'helpers/serializer',
-    'ko.validation'], function (ko, $, system, proveedores, router, statusProveedores, selectedValue, serializer, validation) {
+    'ko.validation'], function (ko, $, system, proveedores, router, 
+       statusproveedores,
+	    selectedValue, serializer, validation) {
     return function edit()
     {
         var self = this;
         self.item = {};
-        self.statusProveedores = {};
-
+        
+        self.statusproveedores = {};
+        
         self.activate = function(id)
         {
             var proveedoresPromise =  proveedores.getById(id).then(function(item){
                 self.item = item;
             });
 
-            var statusProveedoresPromise = statusProveedores.getStatus().then(function(data)
-            {
-                self.statusProveedores = data;
+            
+            var statusproveedoresPromise = statusproveedores.getAll().then(function(data){
+                self.statusproveedores = data;
             });
+            
 
-            return $.when(proveedoresPromise,statusProveedoresPromise).then(function(){
+            return $.when(
+                
+                statusproveedoresPromise,
+                
+                proveedoresPromise).then(function(){
                 ko.validation.init({
                     registerExtenders: true,
                     messagesOnModified: true,

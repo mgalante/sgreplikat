@@ -1,5 +1,9 @@
-<h1>Edit <span data-bind="text: item.id"></span> </h1>
+<h1>Crear <span data-bind="text: item.id"></span></h1>
 
+<div>
+    <label>Id</label>
+    <input data-bind="value: item.id" />
+</div>
 <div>
     <label>Nombre</label>
     <input data-bind="value: item.nombre" />
@@ -24,11 +28,11 @@
     <label>Comentario</label>
     <input data-bind="value: item.comentario" />
 </div>
-
 <div>
-    <label>Status</label>
-    <select data-bind="options: statusProveedores, optionsText: 'descripcion', value: item.statusproveedor_id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
+    <label>Statusproveedor_id</label>
+    <select data-bind="options: statusproveedores, optionsText: '_description', value: item.statusproveedor_id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
 </div>
+
 <br/><div>
-    <button class="btn btn-primary" data-bind="click:create">Guardar</button>&nbsp;<a href="#/proveedor/list" class="btn">Cancelar</a>
+    <button class="btn btn-primary" data-bind="click:create">Crear</button>&nbsp;<a href="#/proveedor/list" class="btn">Cancelar</a>
 </div>

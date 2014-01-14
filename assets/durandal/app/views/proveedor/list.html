@@ -3,13 +3,45 @@
 <table class="table">
     <thead>
         <tr>
+		
+            <th>Id</th>
+		
             <th>Nombre</th>
-            <th>Acciones</th>
+		
+            <th>Direccion</th>
+		
+            <th>Telefono</th>
+		
+            <th>Contacto</th>
+		
+            <th>Email</th>
+		
+            <th>Comentario</th>
+		
+            <th>Statusproveedor_id</th>
+		
+			<th></th>
         </tr>
     </thead>
     <tbody  data-bind="foreach:items">
         <tr>
+				
+            <td data-bind="text:id"></td>
+				
             <td data-bind="text:nombre"></td>
+				
+            <td data-bind="text:direccion"></td>
+				
+            <td data-bind="text:telefono"></td>
+				
+            <td data-bind="text:contacto"></td>
+				
+            <td data-bind="text:email"></td>
+				
+            <td data-bind="text:comentario"></td>
+				
+            <td data-bind="text:statusproveedor_id"></td>
+		
             <td><a data-bind="attr:{href: '#/proveedor/edit/' + id()}">Editar</a>
             &nbsp;<a href="#" data-bind="click: $parent.delete">Eliminar</a></td>
         </tr>

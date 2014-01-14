@@ -1,0 +1,11 @@
+define([
+'plugins/serializer'
+<%for(var i in modules){%>,'models/<%=modules[i].module%>'<%}%>
+]
+,function(serializer
+<%for(var i in modules){%>,<%=modules[i].module%><%}%>){
+    <%for(var i in modules){%>
+    serializer.typeMap.<%=modules[i].module%> = <%=modules[i].module%>;
+    <%}%>
+    return serializer;
+});

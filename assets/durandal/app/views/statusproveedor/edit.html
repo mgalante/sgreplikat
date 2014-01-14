@@ -1,0 +1,18 @@
+<h1>Editar <span data-bind="text: item.id"></span> </h1>
+
+<div>
+    <label>Id</label>
+    <input data-bind="value: item.id" />
+</div>
+<div>
+    <label>Codigo</label>
+    <input data-bind="value: item.codigo" />
+</div>
+<div>
+    <label>Descripcion</label>
+    <input data-bind="value: item.descripcion" />
+</div>
+
+<br/><div>
+    <button class="btn btn-primary" data-bind="click:save">Guardar</button>&nbsp;<a href="#/statusproveedor/list" class="btn">Cancelar</a>
+</div>
