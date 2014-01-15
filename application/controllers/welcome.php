@@ -11,7 +11,7 @@ class Welcome extends CI_Controller {
 	    if(!$this->session->userdata('loggedin')){
 			redirect(site_url('account'));
 		}
-        log_message('debug', "test");
+       // log_message('debug', "test");
 	}
 	
 	public function index()

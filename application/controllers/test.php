@@ -1,11 +1,11 @@
 <?php
 
+require(APPPATH.'libraries/REST_Controller.php');
+class Test extends REST_Controller {
 
-class Test extends CI_Controller {
-
-    public function index()
+    public function index_get()
     {
-        $proveedores = new Proveedor();
+     /*   $proveedores = new Proveedor();
         $proveedores->get();
 
         foreach($proveedores as $proveedor)
@@ -15,7 +15,7 @@ class Test extends CI_Controller {
             $proveedor->statusproveedor->get();
             echo $proveedor->statusproveedor->descripcion;
         }
-
-        $this->response(array("hola"=> "mundo"),200);
+*/
+        $this->response(array("kala" => "lal"), 401);
     }
 }
