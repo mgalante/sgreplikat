@@ -62,7 +62,8 @@
                 { route: 'statusproducto/edit/:id', title:'Editar Statusproducto', moduleId: 'viewmodels/statusproducto/edit', nav: false },
                 { route: 'statusproducto/create', title:'Crear Statusproducto', moduleId: 'viewmodels/statusproducto/create', nav: false },
 				
-
+                { route: 'account/login', title:'Login', moduleId: 'viewmodels/account/login', nav: true },
+                { route: 'account/logout', title:'X', moduleId: 'viewmodels/account/logout', nav: true }				
             ]).buildNavigationModel();
             
             return router.activate();

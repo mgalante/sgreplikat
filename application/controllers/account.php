@@ -17,7 +17,10 @@ class Account extends REST_Controller{
     {
         $user = $this->input->post('user');
         $password = $this->input->post('password');
-        if($user == "miguel" && $password == "1234")
+        if(
+            ($user == "miguel" && $password == "1234") ||
+            ($user == "santiago" && $password == "tambucho")
+        )
         {
             $this->session->set_userdata('loggedin',true);
             $this->response("Ok",200);

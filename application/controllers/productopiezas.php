@@ -2,6 +2,17 @@
 require(APPPATH.'libraries/REST_Controller.php');
 
 class Productopiezas extends REST_Controller{
+
+    public function __construct()
+    {
+        parent::__construct();
+        if(!$this->session->userdata('loggedin'))
+        {
+            $this->response("error", 401);
+        }
+    }
+
+
     public function list_get()
     {
         $entities = new Productopieza();

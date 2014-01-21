@@ -1,45 +1,20 @@
-define(['plugins/http','helpers/serializer','jquery','knockout', 'helpers/appSettings'],function(http,serializer,$,ko,appSettings){
-
+define(['helpers/ajax','jquery','knockout', 'helpers/appSettings'],function(ajax,$,ko,appSettings){
     var ordendecompraitems = {
         getAll: function()
         {
-            var dfd = new $.Deferred();
-            http.get(appSettings.root + "ordendecompraitems/list").then(function(data){
-                dfd.resolve(serializer.deserialize(JSON.stringify(data)));
-            }).fail(function(){
-                dfd.reject();
-            });
-            return dfd.promise();
+            return ajax.get(appSettings.root + "ordendecompraitems/list");
         },
         getById: function(id)
         {
-            var dfd = new $.Deferred();
-            http.get(appSettings.root + "ordendecompraitems/get/" + id).then(function(data){
-                dfd.resolve(serializer.deserialize(JSON.stringify(data)));
-            }).fail(function(){
-                dfd.reject();
-            });
-            return dfd.promise();
-        },
-        add: function(item){
-            this.items.push(item);
+            return ajax.get(appSettings.root + "ordendecompraitems/get/" + id);
         },
         save: function(item)
         {
-            return $.ajax({
-                dataType: 'json',
-                type: 'post',
-                url: appSettings.root + "ordendecompraitems/save",
-                data: {request: ko.toJSON(item)}
-            });
+            return ajax.post(appSettings.root + "ordendecompraitems/save", item);            
         },
         delete: function(id)
         {
-            return $.ajax({
-                dataType: 'json',
-                type: 'post',
-                url: appSettings.root + "ordendecompraitems/delete/" + id
-            });
+            return ajax.post(appSettings.root + "ordendecompraitems/delete/" + id);
         }
     };
     return ordendecompraitems;

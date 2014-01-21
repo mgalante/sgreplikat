@@ -14,7 +14,8 @@
                 { route: '<%=modules[i].module%>/edit/:id', title:'Editar <%=_.str.capitalize(modules[i].module)%>', moduleId: 'viewmodels/<%=modules[i].module%>/edit', nav: false },
                 { route: '<%=modules[i].module%>/create', title:'Crear <%=_.str.capitalize(modules[i].module)%>', moduleId: 'viewmodels/<%=modules[i].module%>/create', nav: false },
 				<% } %>
-
+                { route: 'account/login', title:'Login', moduleId: 'viewmodels/account/login', nav: true },
+                { route: 'account/logout', title:'X', moduleId: 'viewmodels/account/logout', nav: true }				
             ]).buildNavigationModel();
             
             return router.activate();

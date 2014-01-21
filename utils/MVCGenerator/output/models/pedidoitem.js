@@ -1,5 +1,5 @@
 define(['knockout', 'jquery'], function (ko, $) {
-    return function proveedor(obj)
+    return function pedidoitem(obj)
     {
         var self = this;
 

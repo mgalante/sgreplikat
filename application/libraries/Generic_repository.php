@@ -3,6 +3,7 @@ class Generic_repository{
 
     public function update_or_create($entity, $json)
     {
+		
        if(isset($json["id"]) && $json["id"] != 0 )
         {
             $entity->where("deshabilitado = 0")->get_by_id($json["id"]);

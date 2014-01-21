@@ -23,7 +23,15 @@ var moduleFiles = [
     "/viewmodels/welcome.js.ejs",
 	"/views/welcome.html.ejs",
     "/helpers/serializer.js.ejs",
-	"/views/shell.html.ejs"	
+     "/helpers/ajax.js.ejs",
+     "/helpers/appSettings.js.ejs",
+     "/views/shell.html.ejs",
+	 "/services/accounts.js.ejs",
+	 "/viewmodels/account/login.js.ejs",
+	 "/viewmodels/account/logout.js.ejs",
+	 "/views/account/login.html.ejs",
+	 "/views/account/logout.html.ejs",
+	 "/models/account.js.ejs"
  ];
 
  
@@ -101,7 +109,7 @@ function loadConfig()
 		module.fieldsInList =  _.filter(module.fields, function(field) { return field.inlist});			
 		
     });
-    console.log(JSON.stringify(config,null," "));
+    JSON.stringify(config,null," ");
     return config;
 }
 

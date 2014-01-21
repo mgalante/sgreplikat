@@ -5,18 +5,238 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6debabb0-a414-4c91-bf7f-4d964a2e1c29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/models/account.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/services/accounts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/views/account/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/account/login.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/controllers/account.php" afterPath="$PROJECT_DIR$/application/controllers/oldaccount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/models/account.js.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/account.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/services/accounts.js.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/accounts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/helpers/ajax.js.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/helpers/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/helpers/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/helpers/appSettings.js.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/helpers/appSettings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/account/login.html.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/account/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/account/login.js.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/account/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/account/logout.html.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/views/account/logout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/account/logout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/account/logout.js.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/account/logout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/account/logout.js" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\helpers\_serializer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\models\_proveedor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\models\_statusproveedor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\models\statusmodelo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\clientes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\ordendecompraitems.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\ordendecompras.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\pedidoitems.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\pedidos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\piezas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\productopiezas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\productos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\proveedores.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\proveedorpiezas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\statusmodelos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\statuspedidos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\repository\statusproveedores.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\services\_proveedores.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\services\_statusProveedores.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\services\statusmodelos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\_cliente\cliente.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\_proveedor\create.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\_proveedor\details.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\_proveedor\edit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\_proveedor\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\flickr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\statusmodelo\create.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\statusmodelo\edit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\statusmodelo\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\viewmodels\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\_proveedor\_details.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\_proveedor\_edit.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\_proveedor\create.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\_proveedor\edit.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\_proveedor\list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\_shell.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\_welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\detail.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\flickr.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\statusmodelo\create.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\statusmodelo\edit.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\statusmodelo\list.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\assets\durandal\app\views\test.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\models\statusmodelo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\php\controllers\statusmodelos.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\php\models\statusmodelo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\clientes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\ordendecompraitems.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\ordendecompras.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\pedidoitems.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\pedidos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\piezas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\productopiezas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\productos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\proveedores.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\proveedorpiezas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\statusmodelos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\statuspedidos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\repository\statusproveedores.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\services\statusmodelos.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\viewmodels\statusmodelo\create.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\viewmodels\statusmodelo\edit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\viewmodels\statusmodelo\list.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\views\statusmodelo\create.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\views\statusmodelo\edit.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\sgreplikat\utils\MVCGenerator\output\views\statusmodelo\list.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/durandal/app/services/statusproveedores.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/statusproveedores.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/Generic_repository.php" afterPath="$PROJECT_DIR$/application/libraries/Generic_repository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/models/[module].js.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/models/[module].js.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/services/[modules].js.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/services/[modules].js.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/php/controllers/[modules].php.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/php/controllers/[modules].php.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/account.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/account.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/account.php" afterPath="$PROJECT_DIR$/application/controllers/account.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/accounts.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/accounts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/helpers/appSettings.js" afterPath="$PROJECT_DIR$/assets/durandal/app/helpers/appSettings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/cc.bat" afterPath="$PROJECT_DIR$/utils/MVCGenerator/cc.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/cliente.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/cliente.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/cliente.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/cliente.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/clientes.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/clientes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/clientes.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/clientes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/clientes.php" afterPath="$PROJECT_DIR$/application/controllers/clientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/clientes.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/clientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/config.json" afterPath="$PROJECT_DIR$/utils/MVCGenerator/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/create.html.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/create.html.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/cliente/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/cliente/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/ordendecompra/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/ordendecompra/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/ordendecompraitem/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/ordendecompraitem/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/pedido/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/pedido/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/pedidoitem/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/pedidoitem/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/pieza/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/pieza/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/producto/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/producto/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/productopieza/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/productopieza/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/proveedor/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/proveedor/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/proveedorpieza/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/proveedorpieza/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/statuspedido/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/statuspedido/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/statusproducto/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/statusproducto/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/statusproveedor/create.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/statusproveedor/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompra/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompra/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompraitem/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompraitem/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedido/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedido/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedidoitem/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedidoitem/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pieza/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pieza/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/producto/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/producto/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/productopieza/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/productopieza/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedor/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedor/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedorpieza/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedorpieza/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statuspedido/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statuspedido/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproducto/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproducto/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproveedor/create.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproveedor/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/cliente/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/cliente/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/ordendecompra/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/ordendecompra/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/ordendecompraitem/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/ordendecompraitem/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/pedido/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/pedido/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/pedidoitem/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/pedidoitem/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/pieza/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/pieza/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/producto/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/producto/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/productopieza/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/productopieza/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/proveedor/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/proveedorpieza/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/proveedorpieza/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/statuspedido/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/statuspedido/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/statusproducto/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/statusproducto/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/statusproveedor/edit.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/statusproveedor/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/cliente/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompra/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompra/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompraitem/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/ordendecompraitem/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedido/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedido/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedidoitem/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pedidoitem/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pieza/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/pieza/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/producto/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/producto/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/productopieza/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/productopieza/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedor/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedor/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedorpieza/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/proveedorpieza/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statuspedido/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statuspedido/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproducto/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproducto/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproveedor/edit.html" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/views/statusproveedor/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/account/login.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/account/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/viewmodels/account/login.js" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/account/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/main.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/ordendecompra.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/ordendecompra.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/ordendecompra.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/ordendecompra.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/ordendecompraitem.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/ordendecompraitem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/ordendecompraitem.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/ordendecompraitem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/ordendecompraitems.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/ordendecompraitems.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/ordendecompraitems.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/ordendecompraitems.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ordendecompraitems.php" afterPath="$PROJECT_DIR$/application/controllers/ordendecompraitems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/ordendecompraitems.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/ordendecompraitems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/ordendecompras.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/ordendecompras.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/ordendecompras.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/ordendecompras.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ordendecompras.php" afterPath="$PROJECT_DIR$/application/controllers/ordendecompras.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/ordendecompras.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/ordendecompras.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/pedido.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/pedido.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pedido.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pedido.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/pedidoitem.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/pedidoitem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pedidoitem.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pedidoitem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/pedidoitems.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/pedidoitems.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/pedidoitems.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/pedidoitems.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pedidoitems.php" afterPath="$PROJECT_DIR$/application/controllers/pedidoitems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/pedidoitems.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/pedidoitems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/pedidos.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/pedidos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/pedidos.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/pedidos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pedidos.php" afterPath="$PROJECT_DIR$/application/controllers/pedidos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/pedidos.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/pedidos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/pieza.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/pieza.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pieza.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/pieza.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/piezas.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/piezas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/piezas.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/piezas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/piezas.php" afterPath="$PROJECT_DIR$/application/controllers/piezas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/piezas.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/piezas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/producto.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/producto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/producto.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/producto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/productopieza.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/productopieza.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/productopieza.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/productopieza.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/productopiezas.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/productopiezas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/productopiezas.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/productopiezas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/productopiezas.php" afterPath="$PROJECT_DIR$/application/controllers/productopiezas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/productopiezas.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/productopiezas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/productos.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/productos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/productos.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/productos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/productos.php" afterPath="$PROJECT_DIR$/application/controllers/productos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/productos.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/productos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/proveedores.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/proveedores.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/proveedores.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/proveedores.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/proveedores.php" afterPath="$PROJECT_DIR$/application/controllers/proveedores.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/proveedores.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/proveedores.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/proveedorpieza.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/proveedorpieza.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/proveedorpieza.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/proveedorpieza.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/proveedorpiezas.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/proveedorpiezas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/proveedorpiezas.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/proveedorpiezas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/proveedorpiezas.php" afterPath="$PROJECT_DIR$/application/controllers/proveedorpiezas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/proveedorpiezas.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/proveedorpiezas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/shell.js.ejs" afterPath="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/shell.js.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/test.php" afterPath="$PROJECT_DIR$/application/controllers/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/shell.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/shell.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/statuspedido.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/statuspedido.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statuspedido.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statuspedido.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/statuspedidos.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/statuspedidos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/statuspedidos.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/statuspedidos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/statuspedidos.php" afterPath="$PROJECT_DIR$/application/controllers/statuspedidos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statuspedidos.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statuspedidos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/statusproducto.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/statusproducto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statusproducto.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statusproducto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/services/statusproductos.js" afterPath="$PROJECT_DIR$/assets/durandal/app/services/statusproductos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/statusproductos.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/statusproductos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/statusproductos.php" afterPath="$PROJECT_DIR$/application/controllers/statusproductos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statusproductos.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statusproductos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/models/statusproveedor.js" afterPath="$PROJECT_DIR$/assets/durandal/app/models/statusproveedor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statusproveedor.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/models/statusproveedor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/services/statusproveedores.js" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/services/statusproveedores.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/statusproveedores.php" afterPath="$PROJECT_DIR$/application/controllers/statusproveedores.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statusproveedores.php" afterPath="$PROJECT_DIR$/utils/MVCGenerator/output/php/controllers/statusproveedores.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/views/welcome.html" afterPath="$PROJECT_DIR$/assets/durandal/app/views/welcome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/durandal/app/viewmodels/welcome.js" afterPath="$PROJECT_DIR$/assets/durandal/app/viewmodels/welcome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sgreplikat.iws" />
@@ -44,82 +264,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/welcome.js">
+      <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/durandal/app/helpers/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="765">
+            <state line="9" column="5" selection-start="265" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/account/login.js">
+      <file leaf-file-name="ajax.js.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/helpers/ajax.js.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="3" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3213">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/durandal/app/models/account.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="account.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/account.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="28" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accounts.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/durandal/app/services/accounts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="81" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientes.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/durandal/app/services/clientes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="55" selection-start="608" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientes.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/clientes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="229" selection-end="229" vertical-scroll-proportion="0.013398294" vertical-offset="159" max-vertical-offset="1003">
+            <state line="29" column="3" selection-start="659" selection-end="659" vertical-scroll-proportion="0.72928995" vertical-offset="0" max-vertical-offset="676">
               <folding />
             </state>
           </provider>
@@ -128,7 +285,88 @@
       <file leaf-file-name="shell.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="127" selection-start="5132" selection-end="5132" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1326">
+            <state line="63" column="16" selection-start="5414" selection-end="5414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+              <folding>
+                <marker date="1390266532195" expanded="true" signature="414:5684" placeholder="[...]" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="31" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2635">
+              <folding>
+                <marker date="1390261192188" expanded="true" signature="809:1097" placeholder="[...]" />
+                <marker date="1390261192188" expanded="true" signature="991:1360" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="1107:1315" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="1558:1761" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="1987:3211" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="2235:3105" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="2296:2370" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="2417:2855" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="2451:2511" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="2567:2608" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="2671:2708" placeholder="{...}" />
+                <marker date="1390261192188" expanded="true" signature="2752:2827" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="[modules].js.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/services/[modules].js.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="56" selection-start="338" selection-end="338" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clientes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/clientes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="5" selection-start="586" selection-end="586" vertical-scroll-proportion="-9.153846" vertical-offset="204" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.js.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/create.js.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="29" selection-start="2056" selection-end="2056" vertical-scroll-proportion="-17.0" vertical-offset="765" max-vertical-offset="1445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/create.html.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="8" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json2" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json2">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="209" column="32" selection-start="10914" selection-end="10914" vertical-scroll-proportion="-17.5" vertical-offset="3098" max-vertical-offset="3774">
               <folding />
             </state>
           </provider>
@@ -157,22 +395,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/statusproveedor.php" />
-        <option value="$PROJECT_DIR$/utils/MVCGenerator/main.js" />
-        <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/edit.js.ejs" />
-        <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/php/controllers/[modules].php.ejs" />
-        <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/services/[modules].js.ejs" />
-        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/views/welcome.html" />
-        <option value="$PROJECT_DIR$/application/controllers/test.php" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/welcome.js" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/views/account/login.html" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/models/account.js" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js" />
-        <option value="$PROJECT_DIR$/assets/durandal/app/services/accounts.js" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/services/clientes.js" />
         <option value="$PROJECT_DIR$/application/controllers/account.php" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/views/account/login.html" />
+        <option value="$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/list.js" />
         <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/account/login.js" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/cliente/list.js" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/main.js" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js" />
+        <option value="$PROJECT_DIR$/utils/MVCGenerator/main.js" />
+        <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/services/[modules].js.ejs" />
         <option value="$PROJECT_DIR$/application/controllers/clientes.php" />
+        <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/create.js.ejs" />
+        <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/create.html.ejs" />
+        <option value="$PROJECT_DIR$/utils/MVCGenerator/config.json" />
+        <option value="$PROJECT_DIR$/assets/durandal/app/helpers/ajax.js" />
+        <option value="$PROJECT_DIR$/utils/MVCGenerator/templates/helpers/ajax.js.ejs" />
       </list>
     </option>
   </component>
@@ -185,8 +423,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -294,6 +532,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVCGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="[module]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVCGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="viewmodels" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -364,6 +658,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVCGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -405,174 +725,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ordendecompra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viewmodels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="viewmodels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="statusproveedor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sgreplikat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="durandal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -612,7 +764,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="durandal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sgreplikat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -640,24 +836,25 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.keymap" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\sgreplikat\assets\durandal\app\views\account" />
+      <recent name="C:\wamp\www\sgreplikat\assets\durandal\app\helpers" />
       <recent name="C:\wamp\www\sgreplikat\application\controllers" />
       <recent name="C:\wamp\www\sgreplikat\utils\MVCGenerator\templates\helpers" />
       <recent name="C:\wamp\www\sgreplikat\utils\MVCGenerator\templates\viewmodels\[module]" />
-      <recent name="C:\wamp\www\sgreplikat\utils\MVCGenerator\templates\repository" />
-      <recent name="C:\wamp\www\sgreplikat\assets\durandal\app\views\proveedor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\sgreplikat\utils\MVCGenerator\templates\models" />
@@ -677,10 +874,10 @@
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
       <method />
     </configuration>
-    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="localhost">
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
       <method />
     </configuration>
-    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="localhost">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -784,19 +981,24 @@
       <created>1389660470600</created>
       <updated>1389660470600</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="abm">
+      <created>1389786022084</created>
+      <updated>1389786022084</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17275748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19379845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18482251" sideWeight="0.5212121" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16328709" sideWeight="0.8062016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14840499" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3965054" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -805,7 +1007,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -829,9 +1030,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18282208" sideWeight="0.5212121" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293011" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -859,106 +1060,139 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/services/pedidoitems.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/models/cliente.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/cliente/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/cliente/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/oldaccount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="847" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/durandal/app/views/account/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="192" selection-end="192" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="127" selection-start="5132" selection-end="5132" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1326">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="343">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/services/accounts.js">
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/output/viewmodels/cliente/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="81" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/models/account.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/welcome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3213">
+        <state line="11" column="9" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/account/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="3" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+        <state line="13" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/durandal/app/services/clientes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="608" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+        <state line="3" column="9" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/cliente/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+        <state line="11" column="9" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="833">
+          <folding>
+            <marker date="1390266532188" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1390266532188" expanded="true" signature="-1:-1" placeholder="{&quot;text&quot;: '../lib/require/text'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/viewmodels/shell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="16" selection-start="5414" selection-end="5414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <folding>
+            <marker date="1390266532195" expanded="true" signature="414:5684" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2635">
+          <folding>
+            <marker date="1390261192188" expanded="true" signature="809:1097" placeholder="[...]" />
+            <marker date="1390261192188" expanded="true" signature="991:1360" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="1107:1315" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="1558:1761" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="1987:3211" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="2235:3105" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="2296:2370" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="2417:2855" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="2451:2511" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="2567:2608" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="2671:2708" placeholder="{...}" />
+            <marker date="1390261192188" expanded="true" signature="2752:2827" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/services/[modules].js.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="56" selection-start="338" selection-end="338" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/clientes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="229" selection-end="229" vertical-scroll-proportion="0.013398294" vertical-offset="159" max-vertical-offset="1003">
+        <state line="26" column="5" selection-start="586" selection-end="586" vertical-scroll-proportion="-9.153846" vertical-offset="204" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/viewmodels/[module]/create.js.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="29" selection-start="2056" selection-end="2056" vertical-scroll-proportion="-17.0" vertical-offset="765" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json2">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/views/[module]/create.html.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="32" selection-start="10914" selection-end="10914" vertical-scroll-proportion="-17.5" vertical-offset="3098" max-vertical-offset="3774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/durandal/app/helpers/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="265" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/MVCGenerator/templates/helpers/ajax.js.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="3" selection-start="659" selection-end="659" vertical-scroll-proportion="0.72928995" vertical-offset="0" max-vertical-offset="676">
           <folding />
         </state>
       </provider>

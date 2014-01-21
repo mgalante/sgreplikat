@@ -1,45 +1,20 @@
-define(['plugins/http','helpers/serializer','jquery','knockout', 'helpers/appSettings'],function(http,serializer,$,ko,appSettings){
-
+define(['helpers/ajax','jquery','knockout', 'helpers/appSettings'],function(ajax,$,ko,appSettings){
     var clientes = {
         getAll: function()
         {
-            var dfd = new $.Deferred();
-            http.get(appSettings.root + "clientes/list").then(function(data){
-                dfd.resolve(serializer.deserialize(JSON.stringify(data)));
-            }).fail(function(){
-                dfd.reject();
-            });
-            return dfd.promise();
+            return ajax.get(appSettings.root + "clientes/list");
         },
         getById: function(id)
         {
-            var dfd = new $.Deferred();
-            http.get(appSettings.root + "clientes/get/" + id).then(function(data){
-                dfd.resolve(serializer.deserialize(JSON.stringify(data)));
-            }).fail(function(){
-                dfd.reject();
-            });
-            return dfd.promise();
-        },
-        add: function(item){
-            this.items.push(item);
+            return ajax.get(appSettings.root + "clientes/get/" + id);
         },
         save: function(item)
         {
-            return $.ajax({
-                dataType: 'json',
-                type: 'post',
-                url: appSettings.root + "clientes/save",
-                data: {request: ko.toJSON(item)}
-            });
+            return ajax.post(appSettings.root + "clientes/save", item);            
         },
         delete: function(id)
         {
-            return $.ajax({
-                dataType: 'json',
-                type: 'post',
-                url: appSettings.root + "clientes/delete/" + id
-            });
+            return ajax.post(appSettings.root + "clientes/delete/" + id);
         }
     };
     return clientes;

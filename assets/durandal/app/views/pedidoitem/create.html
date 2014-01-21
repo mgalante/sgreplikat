@@ -1,14 +1,12 @@
 <h1>Crear <span data-bind="text: item.id"></span></h1>
 
 <div>
-    <label>Id</label>
-    <input data-bind="value: item.id" />
-</div>
-<div>
+
     <label>Pedido_id</label>
     <select data-bind="options: pedidos, optionsText: '_description', value: item.pedido_id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
 </div>
 <div>
+
     <label>Producto_id</label>
     <select data-bind="options: productos, optionsText: '_description', value: item.producto_id, optionsCaption: 'Seleccione', optionsValue: 'id'"></select>
 </div>
